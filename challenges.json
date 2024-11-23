@@ -1,0 +1,162 @@
+[
+    {
+        "0": "Recommended \nMinimum Level",
+        "1": "Difficulty Rating",
+        "2": "Title",
+        "3": "Challenge",
+        "4": "Description/Notes",
+        "5": "Tags"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Chub Bud",
+        "3": "Catch 5 Chubs in the Rogue River La Noscea.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Rock Lobstah'",
+        "3": "Catch a Rock Lobster in The Silver Bizaar in Western Thanalan.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Ain't no Rest for the Fisher",
+        "3": "Cast back out within 3 seconds of a fish biting.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Ok, Maybe Some Rest.",
+        "3": "Sit down while fishing.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Hooked a Biggun' ",
+        "3": "Catch a large-size fish without using any additional skills besides Hook and Cast.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Let There Be Light!",
+        "3": "Turn on the light at the tip of your rod.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐",
+        "2": "It Belongs in a Museum!",
+        "3": "Catch and then place the same fish into any type of Aquarium.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐",
+        "2": "A Short Rest",
+        "3": "Cast back out within 3 seconds of a fish biting, and not have your Surface Slap or Prize Catch buff fall off. ",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐⭐",
+        "2": "Taste The Rainbow",
+        "3": "Trigger a Spectral Current in Ocean Fishing by catching a Spectral Megalodon, Discus, Sea Bo, Bass, Butterfly, Eel, Coelacanth, Wrasse, Snake Eel, Kotsu Zetsu, or a Spectresaur.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐⭐",
+        "2": "Rare Catch",
+        "3": "Catch a non-spectral current intuition fish using gear and skills below Lv.50.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐⭐⭐⭐",
+        "2": "It's a Looooong Bite.",
+        "3": "Catch a Fabled Legend in Ocean Fishing using gear and skills below Lv.50.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "5",
+        "1": "⭐",
+        "2": "Chummy",
+        "3": "Use Chum to make a fish bite quicker 5 times.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "8",
+        "1": "⭐",
+        "2": "Sneaky, Sneaky",
+        "3": "With Sneak active, run by overworld mobs that are no more than 4 levels above your Fisher Level.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Artistic Angler",
+        "3": "Use Patience to get 3 Angler's Art Stacks",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Favour of the God",
+        "3": "Use Thaliaks Favour to restore 150 GP",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Wanna get a Weak Bite?",
+        "3": "Use Precision Hookset to catch a weak biting fish that is large-sized.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Wanna get a Strong Bite?",
+        "3": "Use Powerful Hookset to catch a strong biting fish that is large-sized.",
+        "4": "",
+        "5": "test5,test1,solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐⭐",
+        "2": "There and back again",
+        "3": "Use 400 GP, then get it back again with 5 seconds of depleting it.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "20",
+        "1": "⭐",
+        "2": "It's Multi-use",
+        "3": "Catch 5 fish with a single Versatile Lure or some other Lure.",
+        "4": "",
+        "5": "test1, ocean fishing"
+    }
+]

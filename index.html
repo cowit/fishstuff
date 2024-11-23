@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="stylesheet" href="/styles/challenge_list.css">
+    <link rel="stylesheet" href="/styles/filter_menu.css">
+    <link rel="icon" type="image/x-icon" href="/icons/fsh.png">
+</head>
+
+<body>
+    <div id="challenge-board">
+        <div id="board-header">
+            <p>The fisher challenges</p>
+        </div>
+        <div id="challenge-list"></div>
+        <div id="challenge-display">
+            <p id="challenge-name"></p>
+            <p id="challenge-stars"></p>
+            <p id="challenge-goal"></p>
+            <p id="challenge-description"></p>
+        </div>
+    </div>
+    <div id="filter-menu">
+        <div id="level-range">
+            <input id="level-min" type="number">
+            <p id="min-max">Min ---- Max</p>
+            <input id="level-max" type="number">
+        </div>
+        <div id="tag-selection">
+        </div>
+    </div>
+</body>
+
+<script src="./scripts/list_challenges.js"></script>
+<script src="./scripts/ui_script.js"></script>
+
+</html>
