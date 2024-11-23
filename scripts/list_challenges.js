@@ -73,6 +73,16 @@ function addClickData(element, challenge) {
         document.getElementById("challenge-stars").textContent = challenge[ChallengeEnum.STARS]
         document.getElementById("challenge-goal").textContent = challenge[ChallengeEnum.GOAL]
         document.getElementById("challenge-description").textContent = challenge[ChallengeEnum.DESCRTIPION]
+
+        //Current challenge selection
+        document.querySelector(".current-challenge")?.classList.remove("current-challenge")
+        element.classList.add("current-challenge")
+        if(element.classList.contains("complete")) {
+            document.querySelector("#challenge-complete").classList.add("completed")
+        }
+        else {
+            document.querySelector("#challenge-complete").classList.remove("completed")
+        }
     })
 }
 

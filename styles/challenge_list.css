@@ -34,6 +34,30 @@
     width: 41%;
     max-width: 41%;
     min-height: 440px;
+    position: relative;
+}
+
+.challenge-display-element {
+    text-align: center;
+}
+
+#challenge-complete {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 120px;
+    border: 4px rgb(236, 186, 58) solid;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#challenge-complete:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+#challenge-complete.completed {
+    background-color: greenyellow;
 }
 
 .challenge-element {
@@ -41,6 +65,10 @@
     width: 100%;
     border-radius: 4px;
     padding: 2px 2px 2px 2px;
+}
+
+.challenge-element.complete {
+    background-color: greenyellow;
 }
 
 .challenge-element:hover {
