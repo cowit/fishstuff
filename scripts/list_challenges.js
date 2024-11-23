@@ -41,7 +41,7 @@ function listChallenges() {
         //Click event
         addClickData(listEle, challenge)
 
-        var tags = challenge[ChallengeEnum.TAGS].split(",")
+        var tags = challenge[ChallengeEnum.TAGS]?.split(",")
         for (tag in tags) {
             tags[tag] = tags[tag].trim()
             if (!tagList.includes(tags[tag])) {
