@@ -1,786 +1,986 @@
 [
-    [
-        1,
-        "⭐",
-        "Chub Bud",
-        "Catch 5 Chubs in the Rogue River La Noscea.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐",
-        "Rock Lobstah'",
-        "Catch a Rock Lobster in The Silver Bizaar in Western Thanalan.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐",
-        "Ain't no Rest for the Fisher",
-        "Cast back out within 3 seconds of a fish biting.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐",
-        "Ok, Maybe Some Rest.",
-        "Sit down while fishing.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐",
-        "Hooked a Biggun' ",
-        "Catch a large-size fish without using any additional skills besides Hook and Cast.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐",
-        "Let There Be Light!",
-        "Turn on the light at the tip of your rod.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐⭐",
-        "It Belongs in a Museum!",
-        "Catch and then place the same fish into any type of Aquarium.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐⭐",
-        "A Short Rest",
-        "Cast back out within 3 seconds of a fish biting, and not have your Surface Slap or Prize Catch buff fall off. ",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐⭐⭐",
-        "Taste The Rainbow",
-        "Trigger a Spectral Current in Ocean Fishing by catching a Spectral Megalodon, Discus, Sea Bo, Bass, Butterfly, Eel, Coelacanth, Wrasse, Snake Eel, Kotsu Zetsu, or a Spectresaur.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐⭐⭐",
-        "Rare Catch",
-        "Catch a non-spectral current intuition fish using gear and skills below Lv.50.",
-        "",
-        ""
-    ],
-    [
-        1,
-        "⭐⭐⭐⭐⭐",
-        "It's a Looooong Bite.",
-        "Catch a Fabled Legend in Ocean Fishing using gear and skills below Lv.50.",
-        "",
-        ""
-    ],
-    [
-        5,
-        "⭐",
-        "Chummy",
-        "Use Chum to make a fish bite quicker 5 times.",
-        "",
-        ""
-    ],
-    [
-        8,
-        "⭐",
-        "Sneaky, Sneaky",
-        "With Sneak active, run by overworld mobs that are no more than 4 levels above your Fisher Level.",
-        "",
-        ""
-    ],
-    [
-        15,
-        "⭐",
-        "Artistic Angler",
-        "Use Patience to get 3 Angler's Art Stacks",
-        "",
-        ""
-    ],
-    [
-        15,
-        "⭐",
-        "Favour of the God",
-        "Use Thaliaks Favour to restore 150 GP",
-        "",
-        ""
-    ],
-    [
-        15,
-        "⭐",
-        "Wanna get a Weak Bite?",
-        "Use Precision Hookset to catch a weak biting fish that is large-sized.",
-        "",
-        ""
-    ],
-    [
-        15,
-        "⭐",
-        "Wanna get a Strong Bite?",
-        "Use Powerful Hookset to catch a strong biting fish that is large-sized.",
-        "",
-        ""
-    ],
-    [
-        15,
-        "⭐⭐",
-        "There and back again",
-        "Use 400 GP, then get it back again with 5 seconds of depleting it.",
-        "",
-        ""
-    ],
-    [
-        20,
-        "⭐",
-        "It's Multi-use",
-        "Catch 5 fish with a single Versatile Lure or some other Lure.",
-        "",
-        ""
-    ],
-    [
-        22,
-        "⭐",
-        "Catch and Release",
-        "Make it so that whenever you catch a Dark Bass at the Sanctum of the Twelve, it is immediately released.",
-        "",
-        ""
-    ],
-    [
-        22,
-        "⭐",
-        "Catch and Release II",
-        "Make it so that whenever you catch a Dark Bass, River Crab, or Bone Crayfish at the Sanctum of the Twelve, it is immediately released.",
-        "",
-        ""
-    ],
-    [
-        22,
-        "⭐⭐",
-        "Release Star",
-        "Get 5,000 points in Ocean Fishing while releasing every fish you catch.",
-        "",
-        ""
-    ],
-    [
-        25,
-        "⭐",
-        "Fish Wheelin'",
-        "Use Patience to catch a moochable fish, and mooch it using Mooch three times.",
-        "",
-        ""
-    ],
-    [
-        25,
-        "⭐⭐",
-        "Perfect Catfish",
-        "Catch a Large-sized Shadow Catfish during (or after) the Lv.35 Fisher Job Quest \"A Game of Cat and Fish.\"",
-        "",
-        ""
-    ],
-    [
-        36,
-        "⭐",
-        "Snagged",
-        "Catch a Heavens Coral. Be sure to turn on Snagging!",
-        "",
-        ""
-    ],
-    [
-        45,
-        "⭐",
-        "Skyfishing",
-        "Catch any fish by casting into the skies of Coerthas in the Coerthasian Western Highlands using Versatile Lure.",
-        "",
-        ""
-    ],
-    [
-        48,
-        "⭐",
-        "Making This Up as I Go",
-        "Use Mooch (not Mooch II) with an average-sized fish using Makeshift Bait.",
-        "",
-        ""
-    ],
-    [
-        49,
-        "⭐⭐⭐⭐⭐",
-        "Wait, you can't do that, that's illegal!",
-        "Catch a Big Fish in  Lv.49 or lower gear.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐",
-        "Collector's Glove, Please",
-        "Catch a Collectable Fish and turn it into any Collectable Appraiser.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐",
-        "Big Fishin'",
-        "Catch any Big Fish.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐",
-        "Big Salty",
-        "Catch The Salter.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐",
-        "It's Only a Model",
-        "Catch a Little Perykos.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐",
-        "No Gathering Points Needed I",
-        "Catch any straight-catch fish using 0 GP and no skills beyond Cast and Hook.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐",
-        "Soft Reset",
-        "Cause a Fisher's Intuition to refresh itself which it's already active.",
-        "Might take a few tries.",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐",
-        "Ah, There It Is! I",
-        "See where the location of a fishes' fishing hole is via the Custom Deliveries NPC menu.",
-        "... if you didn't know this was a thing, it was added in patch 6.3.",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "Living Legend",
-        "Catch any Legendary Fish.",
-        "These are the fish added in the final content update of an Expansion. Usually Patch X.55, but has also been in X.45 and X.50 in earlier expansion.",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "No Gathering Points Needed II",
-        "Catch any single-mooch fish using 0 GP and no skills beyond Cast, Hook, and Mooch.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "First Try!",
-        "Catch any Big Fish as your first recorded fish for a fishing hole.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "Rapid Fire",
-        "Get at least 8 10-second casts and bites in during a single Fingers, Ealad Skaan, or Furcauada window.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "Where'd That Come From?",
-        "Desynth a Glamour Piece from a fish.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "Minions, Do My Bidding!",
-        "Catch one of the fishable Minions.",
-        "Get a Magic Bucket, Tiny Tortiose, Gigantpole, Castaway Chocobo Chick, or Tiny Tansunoko while fishing.",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐",
-        "Trouble Brewing",
-        "Complete the Beasts of Brewers Beacon Quest",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐⭐",
-        "Feasting Well",
-        "Complete the Feast of Famine Quest",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐⭐",
-        "No Gathering Points Needed III",
-        "Catch any double or triple-mooch fish using 0 GP and no skills beyond Cast, Hook, and Mooch.",
-        "",
-        ""
-    ],
-    [
-        50,
-        "⭐⭐⭐⭐⭐⭐",
-        "Impossible Odds",
-        "Catch a Little Perykos with 1 or less Gathering.",
-        "*note to those attempting to do this, and I know who you are... The challenge is something that no one has done and I sorta added it as a joke. There are two hurdles to this achievement, the first - is getting a Wahoo. This challenge will, most likely, not make the final cut.\n\n- Fruity",
-        ""
-    ],
-    [
-        "Lv 51-60",
-        "",
-        "",
-        "",
-        "",
-        ""
-    ],
-    [
-        53,
-        "⭐",
-        "Cloudfishing",
-        "Catch any fish by casting off the side of a floating island in The Sea of Clouds using Versatile Lure.",
-        "",
-        ""
-    ],
-    [
-        55,
-        "⭐",
-        "Hellfishing",
-        "Catch any fish by casting into the lava of the Mourn Volcano in The Dravanian Hinterlands using Versatile Lure.",
-        "",
-        ""
-    ],
-    [
-        57,
-        "⭐⭐",
-        "The Eyes Have It",
-        "Catch a Mud Golem between 3 am and 9pm Eorzea Time.",
-        "",
-        ""
-    ],
-    [
-        57,
-        "⭐⭐⭐",
-        "The Eyes Have It, Again",
-        "Catch a Starbright between 4am and 8pm Eorzea Time",
-        "",
-        ""
-    ],
-    [
-        57,
-        "⭐⭐⭐⭐",
-        "The Eyes Still Have It",
-        "Catch a Frilled Shark between 3am and 5pm Eorzea Time.",
-        "",
-        ""
-    ],
-    [
-        58,
-        "⭐",
-        "Aetherfishing",
-        "Catch any fish by casting into the Aetherchemical Pools of Azyz Lla using Versatile Lure.",
-        "",
-        ""
-    ],
-    [
-        60,
-        "⭐",
-        "Where is it!?",
-        "Catch any fish in the Anyx Old fishing spot.",
-        "",
-        ""
-    ],
-    [
-        60,
-        "⭐",
-        "Patience, Please",
-        "Use Patience II to catch 5 large-sized fish in a row.",
-        "",
-        ""
-    ],
-    [
-        60,
-        "⭐⭐",
-        "Snagged",
-        "Catch an Impaler",
-        "",
-        ""
-    ],
-    [
-        60,
-        "⭐⭐⭐",
-        "It's a New Lap Record! I",
-        "Catch a Record Sized fish for any Biome.",
-        "",
-        ""
-    ],
-    [
-        60,
-        "⭐⭐⭐",
-        "How'd that work?",
-        "Catch a Dark Ambuser while under the effect of Patience II.",
-        "Not all !!! biting big fish use Powerful Hookset!",
-        ""
-    ],
-    [
-        "Lv 61-70",
-        "",
-        "",
-        "",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐",
-        "A New Fishing Ex-Spear-eance",
-        "Unlock Spearfishing.",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐",
-        "Gotcha",
-        "Spear at least 6 fish in a single Teeming Waters.",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐",
-        "Collector's Glove, Please",
-        "Spear a collectable fish and turn it into any Collectable Appraiser.",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐",
-        "Ah, There It Is! II",
-        "Use Shark Eye to location the nearest Teeming Waters.",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐⭐",
-        "Gotcha II",
-        "Spear at least 10 fish in a single Teeming Waters.",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐⭐",
-        "Double The Fun",
-        "Spear 2 fish in a single gigging.",
-        "",
-        ""
-    ],
-    [
-        61,
-        "⭐⭐",
-        "Oh Baby, a Triple!",
-        "Spear 3 fish in a single gigging.",
-        "",
-        ""
-    ],
-    [
-        63,
-        "⭐",
-        "A Small Will Do",
-        "Use Mooch II to mooch an average-sized fish.",
-        "",
-        ""
-    ],
-    [
-        63,
-        "⭐",
-        "Begone!",
-        "Use Veteran Trade to make a fish never appear again during a Teeming Waters.",
-        "",
-        ""
-    ],
-    [
-        63,
-        "⭐⭐⭐",
-        "Average Beginnings",
-        "Start and then continue a Mooch Loop with an average-sized fish.",
-        "",
-        ""
-    ],
-    [
-        64,
-        "⭐",
-        "Not-so-vital",
-        "Use Vital Sight during a Teeming Waters to increase the hitboxes of fish.",
-        "",
-        ""
-    ],
-    [
-        65,
-        "⭐",
-        "Ah, There It Is! III",
-        "Use Shark Eye II to locate the nearest and highest-level Teeming Waters.",
-        "",
-        ""
-    ],
-    [
-        65,
-        "⭐⭐",
-        "Hooked",
-        "Use Double Hook to catch at least 2 of a single species of fish in a single hooking.",
-        "",
-        ""
-    ],
-    [
-        65,
-        "⭐⭐",
-        "Oh, I'm Plenty Hooked",
-        "Using Double Hook, catch at least 4 of a single species of fish with a single hooking.",
-        "",
-        ""
-    ],
-    [
-        65,
-        "⭐⭐",
-        "Release Star II",
-        "Get 10,000 points in Ocean Fishing while releasing every fish you catch.",
-        "",
-        ""
-    ],
-    [
-        65,
-        "⭐⭐",
-        "Double Check",
-        "While Collector's Glove is active, Double Hook a collectable fish and press no.",
-        "",
-        ""
-    ],
-    [
-        67,
-        "⭐",
-        "Treasure abound",
-        "Use Salvage to Spear a Treasure Map, anywhere.",
-        "",
-        ""
-    ],
-    [
-        68,
-        "⭐",
-        "Saltfishing",
-        "Catch any fish by casting into a salt lake in The Lochs or Urqopacha using Versatile Lure.",
-        "",
-        ""
-    ],
-    [
-        69,
-        "⭐",
-        "Bountiful",
-        "Use Nature's Bounty during a Teeming Waters to make an average-sized fish be large-sized.",
-        "",
-        ""
-    ],
-    [
-        69,
-        "⭐⭐",
-        "Tier-riffic!",
-        "Spear a tier-3 collectable fish while spearfishing.",
-        "",
-        ""
-    ],
-    [
-        69,
-        "⭐⭐⭐",
-        "Record the Experience",
-        "Get at least a AA rank in all silhouette sizes for a region in Spearfishing.",
-        "",
-        ""
-    ],
-    [
-        70,
-        "⭐⭐",
-        "Swimming in the Shadows",
-        "Catch an Eternal Eye in Azim Khaat Southern Lakebed.",
-        "",
-        ""
-    ],
-    [
-        70,
-        "⭐⭐",
-        "Extractor",
-        "Desynth a fish into any type of Materia.",
-        "",
-        ""
-    ],
-    [
-        70,
-        "⭐⭐⭐⭐",
-        "Double the Fun I",
-        "Catch any A Realm Reborn, Heavensward, or Stormblood Legendary fish twice in a single window.",
-        "",
-        ""
-    ],
-    [
-        "Lv 70-79",
-        "",
-        "",
-        "",
-        "",
-        ""
-    ],
-    [
-        71,
-        "⭐",
-        "Slap!",
-        "Use Surface Slap so the last fish you caught will not be the next fish you catch.",
-        "",
-        ""
-    ],
-    [
-        71,
-        "⭐⭐",
-        "It's... still there?",
-        "Surface Slap a fish, then maintain Surface Slap, without reapplying it for the next 5 bites.",
-        "",
-        ""
-    ],
-    [
-        75,
-        "⭐",
-        "I Await with Baited Breath",
-        "Use Baited Breath to reduce the wariness of fish 2 times in a single Teeming Waters after spearing 3 fish.",
-        "",
-        ""
-    ],
-    [
-        79,
-        "⭐⭐",
-        "Identical!",
-        "In a fishing hole with more than 5 fish, catch any fish, then guarantee the next fish is the exact same fish while using Versatile Lure.",
-        "",
-        ""
-    ],
-    [
-        80,
-        "⭐⭐⭐",
-        "It Just Keeps Going!",
-        "Mooch the same fish into itself for at least 5 mooches.",
-        "",
-        ""
-    ],
-    [
-        80,
-        "⭐⭐⭐",
-        "The Spinner",
-        "Use a Metal Spinner to help catch Henodus Grandis",
-        "",
-        ""
-    ],
-    [
-        80,
-        "⭐⭐⭐⭐",
-        "Very Intuitive",
-        "Get 3 full Sea Butterfly Intuitions in a single window.",
-        "",
-        ""
-    ],
-    [
-        80,
-        "⭐⭐⭐⭐",
-        "You Belong Here",
-        "Catch and then place, Lancetfish into a Tier 4 Aquarium.",
-        "",
-        ""
-    ],
-    [
-        "Lv 80-89",
-        "",
-        "",
-        "",
-        "",
-        ""
-    ],
-    [
-        81,
-        "⭐",
-        "A Prized Catch, to be Sure!",
-        "Use Prize Catching to guarantee that the next fish you catch is a large-sized fish.",
-        "",
-        ""
-    ],
-    [
-        81,
-        "⭐",
-        "No, Not That One.",
-        "Keep Prize Catch active, without reapplying it, for 3 separate casts.",
-        "",
-        ""
-    ],
-    [
-        85,
-        "⭐",
-        "Shocker!",
-        "Use Electric Current during a Teeming Waters",
-        "",
-        ""
-    ],
-    [
-        85,
-        "⭐⭐",
-        "The Battery Died",
-        "Successfully spear at least 1 fish after using an Electric Current during a Teeming Waters.",
-        "",
-        ""
-    ],
-    [
-        85,
-        "⭐⭐⭐",
-        "Llymlean's Own Spear",
-        "Get a final catch count at a Teeming Waters of 13 or more.",
-        "",
-        ""
-    ],
-    [
-        89,
-        "⭐",
-        "Starfishing",
-        "Catch any fish by casting into spaaaace in Ultima Thule using Versatile Lure.",
-        "",
-        ""
-    ]
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Chub Bud",
+        "3": "Catch 5 Chubs in the Rogue River La Noscea.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Rock Lobstah'",
+        "3": "Catch a Rock Lobster in The Silver Bizaar in Western Thanalan.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Ain't no Rest for the Fisher",
+        "3": "Cast back out within 3 seconds of a fish biting.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Ok, Maybe Some Rest.",
+        "3": "Sit down while fishing.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Hooked a Biggun' ",
+        "3": "Catch a large-size fish without using any additional skills besides Hook and Cast.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐",
+        "2": "Let There Be Light!",
+        "3": "Turn on the light at the tip of your rod.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐",
+        "2": "It Belongs in a Museum!",
+        "3": "Catch and then place the same fish into any type of Aquarium.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐",
+        "2": "A Short Rest",
+        "3": "Cast back out within 3 seconds of a fish biting, and not have your Surface Slap or Prize Catch buff fall off. ",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐⭐",
+        "2": "Taste The Rainbow",
+        "3": "Trigger a Spectral Current in Ocean Fishing by catching a Spectral Megalodon, Discus, Sea Bo, Bass, Butterfly, Eel, Coelacanth, Wrasse, Snake Eel, Kotsu Zetsu, or a Spectresaur.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐⭐",
+        "2": "Rare Catch",
+        "3": "Catch a non-spectral current intuition fish using gear and skills below Lv.50.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "1",
+        "1": "⭐⭐⭐⭐⭐",
+        "2": "It's a Looooong Bite.",
+        "3": "Catch a Fabled Legend in Ocean Fishing using gear and skills below Lv.50.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "5",
+        "1": "⭐",
+        "2": "Chummy",
+        "3": "Use Chum to make a fish bite quicker 5 times.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "8",
+        "1": "⭐",
+        "2": "Sneaky, Sneaky",
+        "3": "With Sneak active, run by overworld mobs that are no more than 4 levels above your Fisher Level.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Artistic Angler",
+        "3": "Use Patience to get 3 Angler's Art Stacks",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Favour of the God",
+        "3": "Use Thaliaks Favour to restore 150 GP",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Wanna get a Weak Bite?",
+        "3": "Use Precision Hookset to catch a weak biting fish that is large-sized.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐",
+        "2": "Wanna get a Strong Bite?",
+        "3": "Use Powerful Hookset to catch a strong biting fish that is large-sized.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "15",
+        "1": "⭐⭐",
+        "2": "There and back again",
+        "3": "Use 400 GP, then get it back again with 5 seconds of depleting it.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "20",
+        "1": "⭐",
+        "2": "It's Multi-use",
+        "3": "Catch 5 fish with a single Versatile Lure or some other Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "22",
+        "1": "⭐",
+        "2": "Catch and Release",
+        "3": "Make it so that whenever you catch a Dark Bass at the Sanctum of the Twelve, it is immediately released.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "22",
+        "1": "⭐",
+        "2": "Catch and Release II",
+        "3": "Make it so that whenever you catch a Dark Bass, River Crab, or Bone Crayfish at the Sanctum of the Twelve, it is immediately released.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "22",
+        "1": "⭐⭐",
+        "2": "Release Star",
+        "3": "Get 5,000 points in Ocean Fishing while releasing every fish you catch.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "25",
+        "1": "⭐",
+        "2": "Fish Wheelin'",
+        "3": "Use Patience to catch a moochable fish, and mooch it using Mooch three times.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "25",
+        "1": "⭐⭐",
+        "2": "Perfect Catfish",
+        "3": "Catch a Large-sized Shadow Catfish during (or after) the Lv.35 Fisher Job Quest \"A Game of Cat and Fish.\"",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "36",
+        "1": "⭐",
+        "2": "Snagged",
+        "3": "Catch a Heavens Coral. Be sure to turn on Snagging!",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "45",
+        "1": "⭐",
+        "2": "Skyfishing",
+        "3": "Catch any fish by casting into the skies of Coerthas in the Coerthasian Western Highlands using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "48",
+        "1": "⭐",
+        "2": "Making This Up as I Go",
+        "3": "Use Mooch (not Mooch II) with an average-sized fish using Makeshift Bait.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "49",
+        "1": "⭐⭐⭐⭐⭐",
+        "2": "Wait, you can't do that, that's illegal!",
+        "3": "Catch a Big Fish in  Lv.49 or lower gear.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐",
+        "2": "Collector's Glove, Please",
+        "3": "Catch a Collectable Fish and turn it into any Collectable Appraiser.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐",
+        "2": "Big Fishin'",
+        "3": "Catch any Big Fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐",
+        "2": "Big Salty",
+        "3": "Catch The Salter.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐",
+        "2": "It's Only a Model",
+        "3": "Catch a Little Perykos.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐",
+        "2": "No Gathering Points Needed I",
+        "3": "Catch any straight-catch Big Fish using 0 GP and no skills beyond Cast and Hook.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐",
+        "2": "Soft Reset",
+        "3": "Cause a Fisher's Intuition to refresh itself which it's already active.",
+        "4": "Might take a few tries.",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐",
+        "2": "Ah, There It Is! I",
+        "3": "See where the location of a fishes' fishing hole is via the Custom Deliveries NPC menu.",
+        "4": "... if you didn't know this was a thing, it was added in patch 6.3.",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐",
+        "2": "Living Legend",
+        "3": "Catch any Legendary Fish.",
+        "4": "These are the fish added in the final content update of an Expansion. Usually Patch X.55, but has also been in X.45 and X.50 in earlier expansion.",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐",
+        "2": "No Gathering Points Needed II",
+        "3": "Catch any single-mooch fish using 0 GP and no skills beyond Cast, Hook, and Mooch.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐",
+        "2": "First Try!",
+        "3": "Catch any Big Fish as your first recorded fish for a fishing hole.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐",
+        "2": "Rapid Fire",
+        "3": "Get at least 8 bites in during a single Fingers, Ealad Skaan, or Furcauada window.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐",
+        "2": "Where'd That Come From?",
+        "3": "Desynth a Glamour Piece from a fish.",
+        "4": "Pieces can come from Gigant Shark, Twitchbeard, Octomammoth, and Frilled Shark.",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐",
+        "2": "Minions, Do Thy Bidding!",
+        "3": "Catch one of the fishable Minions.",
+        "4": "Get a Magic Bucket, Tiny Tortiose, Gigantpole, Castaway Chocobo Chick, or Tiny Tansunoko while fishing.",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐",
+        "2": "Trouble Brewing",
+        "3": "Complete the Beasts of Brewers Beacon Quest",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐⭐",
+        "2": "Feasting Well",
+        "3": "Complete the Feast of Famine Quest",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐⭐",
+        "2": "No Gathering Points Needed III",
+        "3": "Catch any double or triple-mooch fish using 0 GP and no skills beyond Cast, Hook, and Mooch.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "50",
+        "1": "⭐⭐⭐⭐⭐⭐",
+        "2": "Impossible Odds",
+        "3": "Catch a Little Perykos with 1 or less Gathering.",
+        "4": "*note to those attempting to do this, and I know who you are... The challenge is something that no one has done and I sorta added it as a joke. There are two hurdles to this achievement, the first - is getting a Wahoo. This challenge will, most likely, not make the final cut.\n\n- Fruity",
+        "5": "solo"
+    },
+    {
+        "0": "Lv 51-60",
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+    },
+    {
+        "0": "53",
+        "1": "⭐",
+        "2": "Cloudfishing",
+        "3": "Catch any fish by casting off the side of a floating island in The Sea of Clouds using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "55",
+        "1": "⭐",
+        "2": "Hellfishing",
+        "3": "Catch any fish by casting into the lava of the Mourn Volcano in The Dravanian Hinterlands using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "57",
+        "1": "⭐⭐",
+        "2": "The Eyes Have It",
+        "3": "Catch a Mud Golem between 3 am and 9pm Eorzea Time.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "57",
+        "1": "⭐⭐⭐",
+        "2": "The Eyes Have It, Again",
+        "3": "Catch a Starbright between 4am and 8pm Eorzea Time",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "57",
+        "1": "⭐⭐⭐⭐",
+        "2": "The Eyes Still Have It",
+        "3": "Catch a Frilled Shark between 3am and 5pm Eorzea Time.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "58",
+        "1": "⭐",
+        "2": "Aetherfishing",
+        "3": "Catch any fish by casting into the Aetherchemical Pools of Azyz Lla using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "60",
+        "1": "⭐",
+        "2": "Where is it!?",
+        "3": "Catch any fish in the Anyx Old fishing spot.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "60",
+        "1": "⭐",
+        "2": "Patience, Please",
+        "3": "Use Patience II to catch 5 large-sized fish in a row.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "60",
+        "1": "⭐⭐",
+        "2": "Snagged",
+        "3": "Catch an Impaler",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "60",
+        "1": "⭐⭐⭐",
+        "2": "It's a New Lap Record! I",
+        "3": "Catch a Record Sized fish for any Biome.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "60",
+        "1": "⭐⭐⭐",
+        "2": "How'd that work?",
+        "3": "Catch a Dark Ambuser while under the effect of Patience II.",
+        "4": "Not all !!! biting big fish use Powerful Hookset!",
+        "5": "solo"
+    },
+    {
+        "0": "Lv 61-70",
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+    },
+    {
+        "0": "61",
+        "1": "⭐",
+        "2": "A New Fishing Ex-Spear-eance",
+        "3": "Unlock Spearfishing.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "61",
+        "1": "⭐",
+        "2": "Gotcha",
+        "3": "Spear at least 6 fish in a single Teeming Waters.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "61",
+        "1": "⭐",
+        "2": "Collector's Glove, Please",
+        "3": "Spear a collectable fish and turn it into any Collectable Appraiser.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "61",
+        "1": "⭐",
+        "2": "Ah, There It Is! II",
+        "3": "Use Shark Eye to location the nearest Teeming Waters.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "61",
+        "1": "⭐⭐",
+        "2": "Gotcha II",
+        "3": "Spear at least 10 fish in a single Teeming Waters.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "61",
+        "1": "⭐⭐",
+        "2": "Double The Fun",
+        "3": "Spear 2 fish in a single gigging.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "61",
+        "1": "⭐⭐",
+        "2": "Oh Baby, a Triple!",
+        "3": "Spear 3 fish in a single gigging.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "63",
+        "1": "⭐",
+        "2": "A Small Will Do",
+        "3": "Use Mooch II to mooch an average-sized fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "63",
+        "1": "⭐",
+        "2": "Begone!",
+        "3": "Use Veteran Trade to make a fish never appear again during a Teeming Waters.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "63",
+        "1": "⭐⭐⭐",
+        "2": "Average Beginnings",
+        "3": "Start and then continue a Mooch Loop with an average-sized fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "64",
+        "1": "⭐",
+        "2": "Not-so-vital",
+        "3": "Use Vital Sight during a Teeming Waters to increase the hitboxes of fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "65",
+        "1": "⭐",
+        "2": "Ah, There It Is! III",
+        "3": "Use Shark Eye II to locate the nearest and highest-level Teeming Waters.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "65",
+        "1": "⭐⭐",
+        "2": "Hooked",
+        "3": "Use Double Hook to catch at least 2 of a single species of fish in a single hooking.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "65",
+        "1": "⭐⭐",
+        "2": "Oh, I'm Plenty Hooked",
+        "3": "Using Double Hook, catch at least 4 of a single species of fish with a single hooking.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "65",
+        "1": "⭐⭐",
+        "2": "Release Star II",
+        "3": "Get 10,000 points in Ocean Fishing while releasing every fish you catch.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "65",
+        "1": "⭐⭐",
+        "2": "Double Check",
+        "3": "While Collector's Glove is active, Double Hook a collectable fish and press no.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "67",
+        "1": "⭐",
+        "2": "Treasure abound",
+        "3": "Use Salvage to Spear a Treasure Map, anywhere.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "68",
+        "1": "⭐",
+        "2": "Saltfishing",
+        "3": "Catch any fish by casting into a salt lake in The Lochs or Urqopacha using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "69",
+        "1": "⭐",
+        "2": "Bountiful",
+        "3": "Use Nature's Bounty during a Teeming Waters to make an average-sized fish be large-sized.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "69",
+        "1": "⭐⭐",
+        "2": "Tier-riffic!",
+        "3": "Spear a tier-3 collectable fish while spearfishing.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "69",
+        "1": "⭐⭐⭐",
+        "2": "Record the Experience",
+        "3": "Get at least a AA rank in all silhouette sizes for a region in Spearfishing.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "70",
+        "1": "⭐⭐",
+        "2": "Swimming in the Shadows",
+        "3": "Catch an Eternal Eye in Azim Khaat Southern Lakebed.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "70",
+        "1": "⭐⭐",
+        "2": "Extractor",
+        "3": "Desynth a fish into any type of Materia.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "70",
+        "1": "⭐⭐⭐⭐",
+        "2": "Double the Fun I",
+        "3": "Catch any A Realm Reborn, Heavensward, or Stormblood Legendary fish twice in one of its windows.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "Lv 70-79",
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+    },
+    {
+        "0": "71",
+        "1": "⭐",
+        "2": "Slap!",
+        "3": "Use Surface Slap so the last fish you caught will not be the next fish you catch.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "71",
+        "1": "⭐⭐",
+        "2": "It's... still there?",
+        "3": "Surface Slap a fish, then maintain Surface Slap, without reapplying it for the next 5 bites.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "75",
+        "1": "⭐",
+        "2": "I Await with Baited Breath",
+        "3": "Use Baited Breath to reduce the wariness of fish 2 times in a single Teeming Waters after spearing 3 fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "79",
+        "1": "⭐⭐",
+        "2": "Identical!",
+        "3": "In a fishing hole with more than 5 fish, catch any fish, then guarantee the next fish is the exact same fish while using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "80",
+        "1": "⭐⭐⭐",
+        "2": "It Just Keeps Going!",
+        "3": "Mooch the same fish into itself for at least 5 mooches.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "80",
+        "1": "⭐⭐⭐",
+        "2": "The Spinner",
+        "3": "Use a Metal Spinner to help catch Henodus Grandis",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "80",
+        "1": "⭐⭐⭐⭐",
+        "2": "Very Intuitive",
+        "3": "Get 3 full Sea Butterfly Intuitions in a single window.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "80",
+        "1": "⭐⭐⭐⭐",
+        "2": "You Belong Here",
+        "3": "Catch and then place, Lancetfish into a Tier 4 Aquarium.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "Lv 80-89",
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+    },
+    {
+        "0": "81",
+        "1": "⭐",
+        "2": "A Prized Catch, to be Sure!",
+        "3": "Use Prize Catching to guarantee that the next fish you catch is a large-sized fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "81",
+        "1": "⭐",
+        "2": "No, Not That One.",
+        "3": "Keep Prize Catch active, without reapplying it, for 3 separate casts.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "85",
+        "1": "⭐",
+        "2": "Shocker!",
+        "3": "Use Electric Current during a Teeming Waters",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "85",
+        "1": "⭐⭐",
+        "2": "The Battery Died",
+        "3": "Successfully spear at least 1 fish after using an Electric Current during a Teeming Waters.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "85",
+        "1": "⭐⭐⭐",
+        "2": "Llymlean's Own Spear",
+        "3": "Get a final catch count at a Teeming Waters of 13 or more.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "89",
+        "1": "⭐",
+        "2": "Starfishing",
+        "3": "Catch any fish by casting into spaaaace in Ultima Thule using Versatile Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "Lv 90-99",
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+    },
+    {
+        "0": "90",
+        "1": "⭐",
+        "2": "Yup, I'm Still Hooked",
+        "3": "Catch at least 7 of a single species of fish with a single hooking.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "90",
+        "1": "⭐⭐",
+        "2": "It's a Reference",
+        "3": "Catch 3 Alright Alright Alright in a single hooking.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "90",
+        "1": "⭐⭐⭐",
+        "2": "It's a New Lap Record! II",
+        "3": "Catch a record sized Eehs Fan, Lunar Deathworm, or Chlorophos Deathworm.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "90",
+        "1": "⭐⭐⭐⭐",
+        "2": "Double the Fun II",
+        "3": "Catch any Shadowbringers or Endwalker Legendary fish twice in a single window.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "90",
+        "1": "⭐⭐⭐⭐⭐⭐",
+        "2": "Hell's Frozen Over",
+        "3": "Catch Snowy Parexus at least 4 times in a single window.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "91",
+        "1": "⭐",
+        "2": "Get the Spare! I",
+        "3": "Use Spareful Hand to store 3 moochable fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "91",
+        "1": "⭐⭐",
+        "2": "Get the Spare! II",
+        "3": "Use Spareful Hand to store 3 moochable fish of 2 different species.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "91",
+        "1": "⭐⭐⭐",
+        "2": "Get the Spare! III",
+        "3": "Use Spareful Hand to store 3 moochable fish of 3 different species.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "91",
+        "1": "⭐⭐⭐⭐",
+        "2": "Ku'er Runnings",
+        "3": "Start and complete a full mooch chain during a single Ruby Dragon window at least 6 times.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "91",
+        "1": "⭐⭐⭐⭐",
+        "2": "True Legend",
+        "3": "Catch Durdina Fish while Prize Catch is Active.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "91",
+        "1": "⭐⭐⭐⭐",
+        "2": "Filthy Rat",
+        "3": "Catch Charibenet using only Swimbait",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "95",
+        "1": "⭐⭐",
+        "2": "Big-fish Gaming",
+        "3": "Use Big-game Fishing to catch any Tier 3 Collectable fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "95",
+        "1": "⭐⭐",
+        "2": "Big-fish Gaming II",
+        "3": "Use Big-game Fishing to catch a Tier 3 Collectable Moxutural Gar or Toari Sucker.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "95",
+        "1": "⭐⭐⭐",
+        "2": "It's a New Lap Record! III",
+        "3": "Catch a Problematicus that is over 1,060.0 ilms long.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "Lv 100",
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null
+    },
+    {
+        "0": "100",
+        "1": "⭐",
+        "2": "Modestly Hidden",
+        "3": "Use Modest Lure to reveal and catch a Hidden Fish anywhere in Tural.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐",
+        "2": "Ambitiously Hidden",
+        "3": "Use Ambitious Lure to reveal and catch a Hidden Fish anywhere in Tural.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐",
+        "2": "A Modest Guarantee",
+        "3": "Use Modest Lure until you have a feeling the next catch will be a small-sized fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐",
+        "2": "An Ambitious Guarantee",
+        "3": "Use Ambitious Lure until you have a feeling the next catch will be a large-sized fish.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐⭐",
+        "2": "Guaranteed",
+        "3": "Use Ambitious or Modest Lure until you guarantee that a fish of the associated lure's hookset will bite without getting the \"You have a feeling your next fish will be a Small/Large-sized fish\" message.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐⭐",
+        "2": "Going to Need a Bigger Boat",
+        "3": "Catch a Tier 3 Chain Shark.",
+        "4": "Catch a Chain Shark that is 121.3 ilms or longer.",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐⭐⭐",
+        "2": "Your Taimen Has Come",
+        "3": "After using Surface Slap once, catch a Giant Taimen without using more than 10 bait in total for that attempt.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐⭐⭐⭐",
+        "2": "Showdown at the O.F Corale",
+        "3": "Catch Coral Manta using Ambitious Lure.",
+        "4": "",
+        "5": "solo"
+    },
+    {
+        "0": "100",
+        "1": "⭐⭐⭐⭐⭐",
+        "2": "5 Times the Drepanspis",
+        "3": "Catch 5 Drepanspis in a single 23 minutes window.",
+        "4": "",
+        "5": "solo"
+    }
 ]
