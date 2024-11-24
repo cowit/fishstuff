@@ -1,6 +1,15 @@
+.filter-border {
+    border: 4px rgb(236, 186, 58) solid;
+    border-radius: 10px;
+    padding: 7px 0px 5px 0px;
+    width: 850px;
+    margin-top: 10px;
+}
+
 #level-range {
     margin-top: 5px;
     display: flex;
+    justify-content: center;
 }
 
 #min-max {
@@ -8,17 +17,14 @@
 }
 
 #tag-selection {
-    border: 4px rgb(236, 186, 58) solid;
-    border-radius: 10px;
-    padding: 7px 5px 5px 5px;
-    width: 400px;
+    display: flex;
+    justify-content: center;
 }
 
 .tag-selector {
     margin: 1px;
     background-color: rgb(236, 236, 236);
     border-radius: 20px;
-    width: fit-content;
     padding: 2px 4px 2px 4px;
     cursor: pointer;
 }
@@ -29,4 +35,41 @@
 
 .tag-selector.active {
     background-color: greenyellow;
+}
+
+#completed-selection {
+    display: flex;
+    justify-content: center;
+}
+
+.completion-selector {
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+    margin: 1px;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.completion-selector:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.completion-selector.selected {
+    background-color: greenyellow;
+}
+
+#star-selection {
+    display: flex;
+    justify-content: center;
+}
+
+.star-selector {
+    margin: 1px;
+    font-size: large;
+    cursor: pointer;
+    filter: grayscale();
+}
+
+.star-selector.selected {
+    filter: none;
 }

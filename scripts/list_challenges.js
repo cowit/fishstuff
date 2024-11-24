@@ -77,7 +77,7 @@ function addClickData(element, challenge) {
         //Current challenge selection
         document.querySelector(".current-challenge")?.classList.remove("current-challenge")
         element.classList.add("current-challenge")
-        if(element.classList.contains("complete")) {
+        if (element.classList.contains("complete")) {
             document.querySelector("#challenge-complete").classList.add("completed")
         }
         else {
@@ -88,7 +88,7 @@ function addClickData(element, challenge) {
 
 function addTagClickData(element, tag) {
     element.addEventListener("click", () => {
-        if(!element.classList.contains("active")){
+        if (!element.classList.contains("active")) {
             element.classList.add("active")
         }
         else {
@@ -108,25 +108,63 @@ function filterList() {
     })
 
     //Create challenge list
-    challenge : for (index in challengeData) {
+    challenge: for (index in challengeData) {
         var challenge = challengeData[index]
+        var challengeElement = document.getElementById(`challenge-${index}`)
         //Challenge level filter
         var challengeLevel = parseInt(challenge[ChallengeEnum.LEVEL])
         if (challengeLevel < minLevel || challengeLevel > maxLevel || isNaN(challengeLevel)) {
-            document.getElementById(`challenge-${index}`).hidden = true
-            continue
+            challengeElement.hidden = true
+            continue challenge
         }
 
         //Challenge Tag Filter
-        for(tagIndex in activeTags) {
+        for (tagIndex in activeTags) {
             var tag = activeTags[tagIndex]
-            if(!challenge[ChallengeEnum.TAGS].includes(tag))
-                document.getElementById(`challenge-${index}`).hidden = true
-                continue challenge
+            if (!challenge[ChallengeEnum.TAGS].includes(tag))
+                challengeElement.hidden = true
+            continue challenge
         }
 
-        document.getElementById(`challenge-${index}`).hidden = false
+        //Completed Filter
+        var selectedType = document.querySelector(".completion-selector.selected")?.id
+        if (selectedType === "select-completed" && !challengeElement.classList.contains("complete")) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+        else if (selectedType === "select-uncompleted" && challengeElement.classList.contains("complete")) {
+            challengeElement.hidden = true
+            continue challenge
+        }
 
+        //Star Filter
+        if(!document.getElementById("star-1").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 1){
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if(!document.getElementById("star-2").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 2){
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if(!document.getElementById("star-3").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 3){
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if(!document.getElementById("star-4").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 4){
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if(!document.getElementById("star-5").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 5){
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if(!document.getElementById("star-6").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 6){
+            challengeElement.hidden = true
+            continue challenge
+        }
+
+        challengeElement.hidden = false
     }
+
 
 }
