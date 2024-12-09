@@ -12,6 +12,8 @@ var tagList = []
 
 var challengeData
 
+var filteredList = []
+
 fetch("./challenges.json")
     .then(data => data.json()
         .then(json => {
@@ -29,6 +31,9 @@ function listChallenges() {
         var listEle = document.createElement("div")
         listEle.classList.add("challenge-element")
         listEle.id = `challenge-${index}`
+
+        //Add Challenge ele to challenge object
+        challenge.element = listEle
 
         //Add innter html
         listEle.innerHTML = /*html*/`
@@ -58,6 +63,7 @@ function listChallenges() {
         var tagElement = document.createElement("p")
         tagElement.id = tag
         tagElement.classList.add("tag-selector")
+        tagElement.classList.add("selector-button")
         tagElement.innerText = tag.charAt(0).toUpperCase() + tag.slice(1)
         tagBox.appendChild(tagElement)
         addTagClickData(tagElement, tag)
@@ -106,6 +112,7 @@ function filterList() {
     document.querySelectorAll(".tag-selector.active").forEach((ele) => {
         activeTags.push(ele.id)
     })
+    filteredList = []
 
     //Create challenge list
     challenge: for (index in challengeData) {
@@ -164,6 +171,8 @@ function filterList() {
         }
 
         challengeElement.hidden = false
+
+        filteredList.push(challenge)
     }
 
 

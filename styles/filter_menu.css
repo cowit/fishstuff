@@ -1,3 +1,14 @@
+:root {
+    --grey-border: rgb(236, 236, 236);
+}
+
+.selector-button {
+    background-color: var(--grey-border);
+    border-radius: 20px;
+    padding: 4px 12px 4px 12px;
+    cursor: pointer;
+}
+
 .filter-border {
     border: 4px rgb(236, 186, 58) solid;
     border-radius: 10px;
@@ -23,10 +34,7 @@
 
 .tag-selector {
     margin: 1px;
-    background-color: rgb(236, 236, 236);
-    border-radius: 20px;
-    padding: 2px 4px 2px 4px;
-    cursor: pointer;
+
 }
 
 .tag-selector:hover {
@@ -43,11 +51,7 @@
 }
 
 .completion-selector {
-    background-color: rgb(236, 236, 236);
-    border-radius: 15px;
     margin: 1px;
-    padding: 5px 20px 5px 20px;
-    cursor: pointer;
 }
 
 .completion-selector:hover {
@@ -72,4 +76,15 @@
 
 .star-selector.selected {
     filter: none;
+}
+
+
+#random-selection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.random-selector {
+    background-color: var(--grey-border);
+    border-radius: 15px;
 }
