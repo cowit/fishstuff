@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Jupiter Pro";
+    src:
+      url("../Fonts/Jupiter Pro/JupiterPro-Bold.ttf") format("TrueType")
+}
+
+@font-face {
+  font-family: "Inter";
+  src:
+    url("../Fonts/Inter/Inter-VariableFont_opsz\,wght.ttf") format("TrueType")
+}

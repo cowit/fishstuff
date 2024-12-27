@@ -6,6 +6,24 @@
     background: linear-gradient(180deg, rgba(140, 116, 66, 0.30) 0%, rgba(48, 48, 48, 0.30) 37.5%), url(../image_assets/main_texture.jpg) lightgray 50% / cover no-repeat;
 }
 
+/*Side Bar*/
+#siderbar {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#quest-list-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
 #board-header {
     display: flex;
     padding: 0px 16px 2px 16px;
@@ -13,6 +31,11 @@
     align-items: flex-start;
     align-self: stretch;
     color: var(--Tobacco-Brown-200, #DAD4AE);
+    width: 368px;
+    margin: 0;
+}
+
+#board-header-text {
     /* Text Dropshadow */
     text-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.50);
     font-family: "Jupiter Pro";
@@ -20,31 +43,226 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
 }
 
-#challenge-list {
-    border: 4px rgb(236, 186, 58) solid;
-    border-radius: 10px;
-    margin: 0px 0px 30px 0px;
-    padding: 7px 5px 5px 5px;
-    width: 41%;
-    max-width: 41%;
-    min-height: 600px;
-    max-height: 600px;
-    overflow: scroll;
+#filters-button {
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+/*Pinned Challenges*/
+#pinned-challenges {
+    display: flex;
+    padding: 8px 0px 8px 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+    height: fit-content;
+}
+
+#pinned-title {
+    display: flex;
+    padding-left: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    width: 382px;
+    margin: 0;
+    color: var(--Black-500, #9F9F9F);
+    /* Text Dropshadow */
+    text-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*Challenge List*/
+
+.item-list {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    flex: 1 0 0;
+    margin-left: 14px;
+
+}
+
+#all-challenges {
+    display: flex;
+    padding: 8px 0px 8px 14px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    min-height: 602px;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
-#challenge-display {
-    border: 4px rgb(236, 186, 58) solid;
-    border-radius: 10px;
-    margin: 0px 0px 30px 0px;
-    padding: 7px 5px 5px 5px;
-    width: 41%;
-    max-width: 41%;
-    min-height: 440px;
-    max-height: 600px;
-    position: relative;
+
+
+#quest-wrap {
+    display: flex;
+    width: 650px;
+    padding: 6px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--Black-Outlines, #1E1B1B);
+    background: var(--Black-900, #212121);
+    height: fit-content;
+}
+
+#fancy-outline {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 6px;
+    border: 1px solid var(--Tobacco-Brown-500, #A38F4F);
+    background: var(--Black-900, #212121);
+    width: 100%;
+    height: fit-content;
+}
+
+#quest-display {
+    display: flex;
+    height: 842px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border: 1px solid var(--Tobacco-Brown-500, #A38F4F);
+    background: url("../image_assets/Marble\ Background\ Texture.jpg") lightgray 50% / cover no-repeat;
+}
+
+#quest-content {
+    display: flex;
+    padding: 18px;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#quest-primary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+#quest-inner-content {
+    display: flex;
+    height: 533px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 24px;
+}
+
+#quest-title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+#quest-title {
+    align-self: stretch;
+    color: var(--Black-800, #303030);
+    font-family: "Jupiter Pro";
+    font-size: 31.408px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+#quest-tags {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.quest-tag {
+    display: flex;
+    padding: 4px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: var(--Tobacco-Brown-100, #EBEAD6);
+    color: var(--Tobacco-Brown-950, #2F2319);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.quest-text-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+
+#quest-text-icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.quest-text-wrap {
+    display: flex;
+    padding-top: 1px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+}
+
+.quest-text-title {
+    color: var(--Black-700, #3F3E3C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.quest-text-body {
+    align-self: stretch;
+    color: var(--Black-600, #53524F);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    margin: 0;
 }
 
 .challenge-display-element {
@@ -83,4 +301,16 @@
 
 .challenge-element:hover {
     background-color: rgb(221, 221, 221);
+}
+
+#all-challenges-item-list>.quest-item>.list-icon.first>.pin-icon {
+    display: none;
+}
+
+#all-challenges-item-list>.quest-item.current-challenge>.list-icon.first>.select-icon {
+    display: block;
+}
+
+#all-challenges-item-list>.quest-item>.list-icon.first>.select-icon {
+    display: none;
 }

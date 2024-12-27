@@ -24,27 +24,31 @@ fetch("./challenges.json")
 
 
 function listChallenges() {
-    var challengeList = document.getElementById("challenge-list")
+    var challengeList = document.getElementById("all-challenges-item-list")
     for (index in challengeData) {
         var challenge = challengeData[index]
         //Create Element
-        var listEle = document.createElement("div")
-        listEle.classList.add("challenge-element")
-        listEle.id = `challenge-${index}`
+        var questItemTemplate = document.querySelector("#quest-item-template")
+        var questItem = questItemTemplate.content.querySelector(".quest-item").cloneNode(true)
+        questItem.id = `challenge-${index}`
+        document.querySelector("#all-challenges-item-list").appendChild(questItem)
+        questItem.querySelector(".list-level").textContent = `Lv. ${challenge[ChallengeEnum.LEVEL]}`
+        questItem.querySelector(".list-text").textContent = challenge[ChallengeEnum.NAME]
+
+
+
+        //var listEle = document.createElement("div"
+        //listEle.classList.add("challenge-element")
+        //listEle.id = `challenge-${index}`
 
         //Add Challenge ele to challenge object
-        challenge.element = listEle
-
-        //Add innter html
-        listEle.innerHTML = /*html*/`
-            Lv. ${challenge[ChallengeEnum.LEVEL]} ${challenge[ChallengeEnum.NAME]}
-            `
+        challenge.element = questItem
 
         //Append Element
-        challengeList.appendChild(listEle)
+        challengeList.appendChild(questItem)
 
         //Click event
-        addClickData(listEle, challenge)
+        addClickData(questItem, challenge)
 
         var tags = challenge[ChallengeEnum.TAGS]?.split(",")
         for (tag in tags) {
@@ -75,11 +79,11 @@ function listChallenges() {
 
 function addClickData(element, challenge) {
     element.addEventListener("click", (event) => {
-        document.getElementById("challenge-name").textContent = challenge[ChallengeEnum.NAME]
-        document.getElementById("challenge-stars").textContent = challenge[ChallengeEnum.STARS]
-        document.getElementById("challenge-goal").textContent = challenge[ChallengeEnum.GOAL]
-        document.getElementById("challenge-description").textContent = challenge[ChallengeEnum.DESCRTIPION]
-
+        document.getElementById("quest-title").textContent = challenge[ChallengeEnum.NAME]
+        document.getElementById("quest-difficulty").textContent = `Difficulty ${challenge[ChallengeEnum.STARS]}`
+        document.getElementById("quest-objective-text").textContent = challenge[ChallengeEnum.GOAL]
+        document.getElementById("quest-description-text").textContent = challenge[ChallengeEnum.DESCRTIPION]
+        document.getElementById("quest-level").textContent = `Level Req: ${challenge[ChallengeEnum.LEVEL]}`
         //Current challenge selection
         document.querySelector(".current-challenge")?.classList.remove("current-challenge")
         element.classList.add("current-challenge")
@@ -145,27 +149,27 @@ function filterList() {
         }
 
         //Star Filter
-        if(!document.getElementById("star-1").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 1){
+        if (!document.getElementById("star-1").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 1) {
             challengeElement.hidden = true
             continue challenge
         }
-        if(!document.getElementById("star-2").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 2){
+        if (!document.getElementById("star-2").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 2) {
             challengeElement.hidden = true
             continue challenge
         }
-        if(!document.getElementById("star-3").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 3){
+        if (!document.getElementById("star-3").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 3) {
             challengeElement.hidden = true
             continue challenge
         }
-        if(!document.getElementById("star-4").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 4){
+        if (!document.getElementById("star-4").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 4) {
             challengeElement.hidden = true
             continue challenge
         }
-        if(!document.getElementById("star-5").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 5){
+        if (!document.getElementById("star-5").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 5) {
             challengeElement.hidden = true
             continue challenge
         }
-        if(!document.getElementById("star-6").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 6){
+        if (!document.getElementById("star-6").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 6) {
             challengeElement.hidden = true
             continue challenge
         }
