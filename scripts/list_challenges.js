@@ -88,10 +88,10 @@ function addClickData(element, challenge) {
         document.querySelector(".current-challenge")?.classList.remove("current-challenge")
         element.classList.add("current-challenge")
         if (element.classList.contains("complete")) {
-            document.querySelector("#challenge-complete").classList.add("completed")
+            document.querySelector("#quest-complete-button").classList.add("completed")
         }
         else {
-            document.querySelector("#challenge-complete").classList.remove("completed")
+            document.querySelector("#quest-complete-button").classList.remove("completed")
         }
     })
 }
