@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.min.js"></script>
     <link rel="stylesheet" href="styles/color_variables.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/challenge_list.css">
@@ -9,6 +11,7 @@
     <link rel="stylesheet" href="styles/component_styles.css">
     <link rel="stylesheet" href="Fancy Scrollbar Package/styles.css">
     <link rel="icon" type="image/x-icon" href="./icons/fsh.png">
+
 </head>
 
 <body>
@@ -98,33 +101,86 @@
             </div>
         </div>
     </div>
-    <div id="filter-menu">
-        <div id="level-range" class="filter-border">
-            <input id="level-min" type="number">
-            <p id="min-max">Min ---- Max</p>
-            <input id="level-max" type="number">
+    <div id="floating-filter-wrapper">
+        <div id="filter-menu">
+            <div class="filter-section" id="tag-selection">
+                <p class="filter-title">Tags</p>
+            </div>
+            <div class="filter-section" id="completed-selection">
+                <p class="filter-title">Completion</p>
+                <div class="filter-checkbox">
+                    <input id="select-completed" checked type="checkbox" class="filter-checkbox-input">
+                    <p class="filter-checkbox-text">Complete</p>
+                </div>
+                <div class="filter-checkbox">
+                    <input id="select-uncompleted" checked type="checkbox" class="filter-checkbox-input">
+                    <p class="filter-checkbox-text">Incomplete</p>
+                </div>
+            </div>
+            <div class="filter-section star-selection" id="tag-selection">
+                <p class="filter-title">Difficulty</p>
+                <div id="star-box">
+                    <svg id="star-1" class="star-selector selected" xmlns="http://www.w3.org/2000/svg" width="10"
+                        height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M5 0.850098L6.36954 3.96509L9.75528 4.30501L7.21596 6.57011L7.93893 9.89518L5 8.1801L2.06107 9.89518L2.78404 6.57011L0.244718 4.30501L3.63046 3.96509L5 0.850098Z" />
+                    </svg>
+                    <svg id="star-2" class="star-selector selected" xmlns="http://www.w3.org/2000/svg" width="10"
+                        height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M5 0.850098L6.36954 3.96509L9.75528 4.30501L7.21596 6.57011L7.93893 9.89518L5 8.1801L2.06107 9.89518L2.78404 6.57011L0.244718 4.30501L3.63046 3.96509L5 0.850098Z" />
+                    </svg>
+                    <svg id="star-3" class="star-selector selected" xmlns="http://www.w3.org/2000/svg" width="10"
+                        height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M5 0.850098L6.36954 3.96509L9.75528 4.30501L7.21596 6.57011L7.93893 9.89518L5 8.1801L2.06107 9.89518L2.78404 6.57011L0.244718 4.30501L3.63046 3.96509L5 0.850098Z" />
+                    </svg>
+                    <svg id="star-4" class="star-selector selected" xmlns="http://www.w3.org/2000/svg" width="10"
+                        height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M5 0.850098L6.36954 3.96509L9.75528 4.30501L7.21596 6.57011L7.93893 9.89518L5 8.1801L2.06107 9.89518L2.78404 6.57011L0.244718 4.30501L3.63046 3.96509L5 0.850098Z" />
+                    </svg>
+                    <svg id="star-5" class="star-selector selected" xmlns="http://www.w3.org/2000/svg" width="10"
+                        height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M5 0.850098L6.36954 3.96509L9.75528 4.30501L7.21596 6.57011L7.93893 9.89518L5 8.1801L2.06107 9.89518L2.78404 6.57011L0.244718 4.30501L3.63046 3.96509L5 0.850098Z" />
+                    </svg>
+                    <svg id="star-6" class="star-selector selected" xmlns="http://www.w3.org/2000/svg" width="10"
+                        height="10" viewBox="0 0 10 10" fill="none">
+                        <path
+                            d="M5 0.850098L6.36954 3.96509L9.75528 4.30501L7.21596 6.57011L7.93893 9.89518L5 8.1801L2.06107 9.89518L2.78404 6.57011L0.244718 4.30501L3.63046 3.96509L5 0.850098Z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="filter-section" id="tag-selection"></div>
+            <p class="filter-title">MSQ Completion</p>
+            <div class="styled-dropdown" id="MSQ-selection">
+                <div class="styled-options open">
+                    <div class="styled-option selected" >A Realm Reborn</div>
+                    <div class="styled-option">A Realm Reborn</div>
+                    <div class="styled-option">A Realm Reborn</div>
+                    <div class="styled-option">A Realm Reborn</div>
+                </div>
+                <svg style="margin-left: auto;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 7.5L10 12.5L15 7.5" stroke="#303030" stroke-width="1.66667" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+
+            </div>
         </div>
-        <div id="tag-selection" class="filter-border">
-        </div>
-        <div id="completed-selection" class="filter-border">
-            <p id="select-all" class="completion-selector selected selector-button">All</p>
-            <p id="select-completed" class="completion-selector selector-button">Completed</p>
-            <p id="select-uncompleted" class="completion-selector selector-button">Uncompleted</p>
-        </div>
-        <div id="star-selection" class="filter-border">
-            <p id="star-1" class="star-selector selected">⭐</p>
-            <p id="star-2" class="star-selector selected">⭐</p>
-            <p id="star-3" class="star-selector selected">⭐</p>
-            <p id="star-4" class="star-selector selected">⭐</p>
-            <p id="star-5" class="star-selector selected">⭐</p>
-            <p id="star-6" class="star-selector selected">⭐</p>
-        </div>
-        <div id="random-selection" class="filter-border">
-            <p id="random-any" class="random-selector selector-button">Random Challenge</p>
-            <p id="random-normal" class="random-selector selector-button">Random Normal Difficulty</p>
-            <p id="random-savage" class="random-selector selector-button">Random Savage Difficulty</p>
-            <p id="random-ultimate" class="random-selector selector-button">Random Ultimate Difficulty</p>
-        </div>
+    </div>
+    <div id="level-range" class="filter-border">
+        <input id="level-min" type="number">
+        <p id="min-max">Min ---- Max</p>
+        <input id="level-max" type="number">
+    </div>
+    <div id="random-selection" class="filter-border">
+        <p id="random-any" class="random-selector selector-button">Random Challenge</p>
+        <p id="random-normal" class="random-selector selector-button">Random Normal Difficulty</p>
+        <p id="random-savage" class="random-selector selector-button">Random Savage Difficulty</p>
+        <p id="random-ultimate" class="random-selector selector-button">Random Ultimate Difficulty</p>
+    </div>
+    </div>
     </div>
 </body>
 
@@ -215,6 +271,13 @@
                 </defs>
             </svg>
         </div>
+    </div>
+</template>
+
+<template id="filter-checkbox-template">
+    <div class="filter-checkbox">
+        <input type="checkbox" class="filter-checkbox-input">
+        <p class="filter-checkbox-text">Solo</p>
     </div>
 </template>
 

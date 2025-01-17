@@ -80,21 +80,85 @@
     margin: 0;
 }
 
-.quest-item.complete > .list-icon.check > .empty-checkmark {
+.quest-item.complete>.list-icon.check>.empty-checkmark {
     display: none;
 }
 
-.quest-item > .list-icon.check > .filled-checkmark {
+.quest-item>.list-icon.check>.filled-checkmark {
     display: none;
 }
 
-.quest-item.complete > .list-icon.check > .filled-checkmark {
-    display:block;
+.quest-item.complete>.list-icon.check>.filled-checkmark {
+    display: block;
     min-height: 25px;
 }
 
 /*Scroll bars*/
 
-.fancy-scrollbar {
-    scrollbar-color: red;
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+[hidden] {
+    display: none;
+}
+
+/* Custom Dropdown */
+.styled-dropdown {
+    display: flex;
+    padding: 10px 14px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--Tobacco-Brown-200, #DAD4AE);
+    background: #FFF;
+    width: 334px;
+    position: relative;
+    cursor: pointer;
+
+    /* Shadows/shadow-xs-skeuomorphic */
+    box-shadow: 0px 0px 0px 1px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border, rgba(16, 24, 40, 0.18)) inset, 0px -2px 0px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner, rgba(16, 24, 40, 0.05)) inset, 0px 1px 2px 0px var(--Colors-Effects-Shadows-shadow-xs, rgba(16, 24, 40, 0.05));
+}
+
+.styled-options {
+    max-height: 200px;
+    position: absolute;
+}
+
+.styled-options.open {
+    border: 1px solid var(--Tobacco-Brown-200, #DAD4AE);
+}
+
+.styled-options.open>.styled-option {
+    display: block;
+}
+
+.styled-options.open>.styled-option:hover {
+    background: var(--Hero, #CAA83A);
+}
+
+.styled-option {
+    display: none;
+    color: var(--Black-800, #303030);
+
+    /* Text sm/Semibold */
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-sm, 14px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-sm, 20px);
+    /* 142.857% */
+
+    border-bottom: 1px solid var(--Tobacco-Brown-200, #DAD4AE);
 }

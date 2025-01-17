@@ -4,143 +4,143 @@
         "⭐",
         "Chub Bud",
         "Catch 5 Chubs in the Rogue River La Noscea.",
-        "",
-        "solo"
+        "Get familiar with fishing in different fishing holes around Limsa Lominsa.",
+        "solo, learning"
     ],
     [
         1,
         "⭐",
         "Rock Lobstah'",
         "Catch a Rock Lobster in The Silver Bizaar in Western Thanalan.",
-        "",
-        "solo"
+        "Get familiar with fishing in different fishing holes around Eorzea.",
+        "solo, learning"
     ],
     [
         1,
         "⭐",
         "Ain't no Rest for the Fisher",
         "Cast back out within 3 seconds of a fish biting.",
-        "",
-        "solo"
+        "Using the skill Rest lets you reel back in and cast out quicker, even when a fish has bit... but it doesn't work after you've hooked a fish.",
+        "solo, learning"
     ],
     [
         1,
         "⭐",
         "Ok, Maybe Some Rest.",
         "Sit down while fishing.",
-        "",
-        "solo"
+        "Using /sit while your rod is out lets you sit down on a cute little stool. Fun fact.",
+        "solo, learning"
     ],
     [
         1,
         "⭐",
         "Hooked a Biggun' ",
         "Catch a large-size fish without using any additional skills besides Hook and Cast.",
-        "",
-        "solo"
+        "Every fish you reel in has a chance to be large-sized without any additional buffs! The chance isn't high, and can be increased by other buffs.",
+        "solo, learning"
     ],
     [
         1,
         "⭐",
         "Let There Be Light!",
         "Turn on the light at the tip of your rod.",
-        "",
-        "solo"
+        "Many fishers swear that the light on the tip of your rod makes fish more likely to bite. There's no evidence to this, and is merely from when you needed to see your rod move to determine the type of fish that is biting.",
+        "solo, learning"
     ],
     [
         1,
         "⭐⭐",
         "It Belongs in a Museum!",
         "Catch and then place the same fish into any type of Aquarium.",
-        "",
-        "solo"
+        "Many fish can be placed into various Aquariums, but not all!",
+        "solo, learning"
     ],
     [
-        1,
+        71,
         "⭐⭐",
         "A Short Rest",
         "Cast back out within 3 seconds of a fish biting, and not have your Surface Slap or Prize Catch buff fall off. ",
-        "",
-        "solo"
+        "Rest lets you return to a cast-ready stance, all while preserving some buffs.",
+        "solo, learning"
     ],
     [
         1,
         "⭐⭐⭐",
         "Taste The Rainbow",
-        "Trigger a Spectral Current in Ocean Fishing by catching a Spectral Megalodon, Discus, Sea Bo, Bass, Butterfly, Eel, Coelacanth, Wrasse, Snake Eel, Kotsu Zetsu, or a Spectresaur.",
-        "",
-        "solo"
+        "Trigger a Spectral Current in Ocean Fishing by catching a Spectral Fish.",
+        "Spectral Currents in Ocean Fishing have a chance to appear after anyone on the boat catches a Spectral Fish. Spectral Fish include: Spectral Megalodon, Discus, Sea Bo, Bass, Butterfly, Eel, Coelacanth, Wrasse, Snake Eel, Kotsu Zetsu, or a Spectresaur.",
+        "solo, learning, ocean fishing"
     ],
     [
         1,
         "⭐⭐⭐",
         "Rare Catch",
-        "Catch a non-spectral current intuition fish using gear and skills below Lv.50.",
-        "",
+        "Catch a non-spectral current intuition fish using gear and skills at or below Lv.50.",
+        "Big fish have a hard gathering requirement in order for them to be caught. Ocean Fish which require an intuition, do not. However, they have a 'soft' gathering requirement, and the lower your gathering, the longer it takes for them to bite. ",
         "solo"
     ],
     [
         1,
         "⭐⭐⭐⭐⭐",
         "It's a Looooong Bite.",
-        "Catch a Fabled Legend in Ocean Fishing using gear and skills below Lv.50.",
-        "",
-        "solo"
+        "Catch a Fabled Legend in Ocean Fishing using gear and skills at or below Lv.50.",
+        "Legendary fish have a hard gathering requirement in order for them to be caught. Ocean Fish which require an intuition, do not. However, they have a 'soft' gathering requirement, and the lower your gathering, the longer it takes for them to bite. ",
+        "solo, ocean fishing"
     ],
     [
         5,
         "⭐",
         "Chummy",
         "Use Chum to make a fish bite quicker 5 times.",
-        "",
-        "solo"
+        "Chum is a skill which, for the cost of GP, reduces the time it takes a fish to bite by ~50%.",
+        "solo, learning"
     ],
     [
         8,
         "⭐",
         "Sneaky, Sneaky",
         "With Sneak active, run by overworld mobs that are no more than 4 levels above your Fisher Level.",
-        "",
-        "solo"
+        "Sneak is a persisent buff where any enemy up to four levels above your current fisher level will ignore you and not agro onto you.",
+        "solo, learning"
     ],
     [
         15,
         "⭐",
         "Artistic Angler",
         "Use Patience to get 3 Angler's Art Stacks",
-        "",
-        "solo"
+        "Whenever you catch a large-sized fish over Lv.15, you gain one stack of Angler's Arts. These stacks can be spent on different skills.",
+        "solo, learning"
     ],
     [
         15,
         "⭐",
         "Favour of the God",
         "Use Thaliaks Favour to restore 150 GP",
-        "",
-        "solo"
+        "When you have Angler's Art stacks, you can use certain skills. A useful skill is Thaliak's Favor, which converts Angler's Art Stacks into GP.",
+        "solo, learning"
     ],
     [
         15,
         "⭐",
         "Wanna get a Weak Bite?",
         "Use Precision Hookset to catch a weak biting fish that is large-sized.",
-        "",
-        "solo"
+        "While using Patience or Patience II, you can a debuff called \"Inefficient Hooking.\" This debuff makes hook less effective, and fish more likely to slip. If you use Precision Hookset on ! (and some !!!) bites, that debuff is negated.",
+        "solo, learning"
     ],
     [
         15,
         "⭐",
         "Wanna get a Strong Bite?",
         "Use Powerful Hookset to catch a strong biting fish that is large-sized.",
-        "",
-        "solo"
+        "While using Patience or Patience II, you can a debuff called \"Inefficient Hooking.\" This debuff makes hook less effective, and fish more likely to slip. If you use Powerful Hookset on !! (and some !!!) bites, that debuff is negated.",
+        "solo, learning"
     ],
     [
         15,
         "⭐⭐",
-        "There and back again",
-        "Use 400 GP, then get it back again with 5 seconds of depleting it.",
-        "",
+        "There and Back Again",
+        "Use 400 GP, then get it back again with 5 seconds of depleting it without using any type of Cordial.",
+        "It's shrimple - just regain 400GP or more in 5 seconds without using any form of Cordial.",
         "solo"
     ],
     [
@@ -148,79 +148,79 @@
         "⭐",
         "It's Multi-use",
         "Catch 5 fish with a single Versatile Lure or some other Lure.",
-        "",
-        "solo"
+        "Lures are a form of tackle that don't always get destroyed when a fish bites, they can be reused multiple times before potentially breaking.",
+        "solo, learning"
     ],
     [
         22,
         "⭐",
         "Catch and Release",
         "Make it so that whenever you catch a Dark Bass at the Sanctum of the Twelve, it is immediately released.",
-        "",
-        "solo"
+        "Release is a skill which removes the fish you just caught from your inventory. It looks like you're throwing it back into the water - and you are - but mechanically doesn't do anything else!",
+        "solo, learning"
     ],
     [
         22,
         "⭐",
         "Catch and Release II",
         "Make it so that whenever you catch a Dark Bass, River Crab, or Bone Crayfish at the Sanctum of the Twelve, it is immediately released.",
-        "",
-        "solo"
+        "Release List is a skill that lets you select which fish will be automatically released whenever it is caught. Careful not to use it on a fish you want to keep!",
+        "solo, learning"
     ],
     [
         22,
         "⭐⭐",
         "Release Star",
         "Get 5,000 points in Ocean Fishing while releasing every fish you catch.",
-        "",
-        "solo"
+        "Must use Release and/or Release List for every catch, during each stop and spectral current.",
+        "solo, ocean fishing"
     ],
     [
         25,
         "⭐",
         "Fish Wheelin'",
         "Use Patience to catch a moochable fish, and mooch it using Mooch three times.",
-        "",
-        "solo"
+        "While Patience is active, there is an increased chance that any fish caught is a large-sized fish. Mooch allows you to use certain large-sized fish as bait to catch other fish. ",
+        "solo, learning"
     ],
     [
         25,
         "⭐⭐",
         "Perfect Catfish",
         "Catch a Large-sized Shadow Catfish during (or after) the Lv.35 Fisher Job Quest \"A Game of Cat and Fish.\"",
-        "",
+        "Patience, fisher!",
         "solo"
     ],
     [
         36,
         "⭐",
         "Snagged",
-        "Catch a Heavens Coral. Be sure to turn on Snagging!",
-        "",
-        "solo"
+        "Catch a Lake Urchin in the West Banepool fishing hole. Be sure to turn on Snagging!",
+        "Snagging is a skill which allows you to catch certain shellfish, urchin, corals, mollusks, maps, and a pesky bucket while fishing. If you don't have snagging on for a fish that requires snagging, it won't bite!",
+        "solo, learning"
     ],
     [
         45,
         "⭐",
         "Skyfishing",
-        "Catch any fish by casting into the skies of Coerthas in the Coerthasian Western Highlands using Versatile Lure.",
-        "",
-        "solo"
+        "Catch any fish by casting into the skies of Coerthas in the Coerthasian Central Highlands using Versatile Lure.",
+        "Fish don't just swim in water, you know. Sometimes they fly through the sky!",
+        "solo, learning"
     ],
     [
         48,
         "⭐",
         "Making This Up as I Go",
         "Use Mooch (not Mooch II) with an average-sized fish using Makeshift Bait.",
-        "",
-        "solo"
+        "Mooching allows you to use certain fish as bait, which allows you to catch other fish. Usually, Mooch only works with large-sized fish, however Makeshift Bait allows you to ignore this requirement for fish caught while its buff is active.",
+        "solo, learning"
     ],
     [
         49,
         "⭐⭐⭐⭐⭐",
         "Wait, you can't do that, that's illegal!",
         "Catch a Big Fish in  Lv.49 or lower gear.",
-        "",
+        "Using only gear that is Lv.49 or lower, achieve the minimum gathering requirement for a big fish, then catch the big fish.",
         "solo"
     ],
     [
@@ -228,15 +228,15 @@
         "⭐",
         "Collector's Glove, Please",
         "Catch a Collectable Fish and turn it into any Collectable Appraiser.",
-        "",
-        "solo"
+        "Fish which can be caught as a collectable, can only get a collectability rating when you have the Collector's Glove buff active after using the skill Collect. You can turn the buff off by using the Collect skill again, but then none of the collectable fish will be actually collectable!",
+        "solo, learning"
     ],
     [
         50,
         "⭐",
         "Big Fishin'",
         "Catch any Big Fish.",
-        "",
+        "Big Fish are a unique fish at each fishing hole in the game. They usually have unique conditions in which they are available and a minimum gathering needed in order to catch! ",
         "solo"
     ],
     [
@@ -244,7 +244,7 @@
         "⭐⭐",
         "Big Salty",
         "Catch The Salter.",
-        "",
+        "It's a ! bite, in case you were wondering.",
         "solo"
     ],
     [
@@ -252,7 +252,7 @@
         "⭐⭐",
         "It's Only a Model",
         "Catch a Little Perykos.",
-        "",
+        "It's a !! bite, in case you were wondering.",
         "solo"
     ],
     [
@@ -260,7 +260,7 @@
         "⭐⭐",
         "No Gathering Points Needed I",
         "Catch any straight-catch Big Fish using 0 GP and no skills beyond Cast and Hook.",
-        "",
+        "Fish like you would in the old days.",
         "solo"
     ],
     [
@@ -268,15 +268,15 @@
         "⭐⭐",
         "Soft Reset",
         "Cause a Fisher's Intuition to refresh itself which it's already active.",
-        "Might take a few tries.",
-        "solo"
+        "At level 50, Fisher unlocks a trait called Fisher's Instinct which gives Fisher's Intuition or Spearfisher's Intuition a chance for their duration to be reset when you catch any fish that is used to trigger intuition. It may take a few tries or fish to trigger!",
+        "solo, learning"
     ],
     [
         50,
         "⭐⭐",
         "Ah, There It Is! I",
         "See where the location of a fishes' fishing hole is via the Custom Deliveries NPC menu.",
-        "... if you didn't know this was a thing, it was added in patch 6.3.",
+        "... if you didn't know this was a thing, it was added in Patch 6.3.",
         "solo"
     ],
     [
@@ -284,7 +284,7 @@
         "⭐⭐⭐",
         "Living Legend",
         "Catch any Legendary Fish.",
-        "These are the fish added in the final content update of an Expansion. Usually Patch X.55, but has also been in X.45 and X.50 in earlier expansion.",
+        "These are the fish added in the final content update of an Expansion. Usually Patch X.55, but has also been in X.45 and X.50 in earlier expansions.",
         "solo"
     ],
     [
@@ -292,15 +292,15 @@
         "⭐⭐⭐",
         "No Gathering Points Needed II",
         "Catch any single-mooch fish using 0 GP and no skills beyond Cast, Hook, and Mooch.",
-        "",
+        "Fish like you would in the old days.",
         "solo"
     ],
     [
         50,
         "⭐⭐⭐",
         "First Try!",
-        "Catch any Big Fish as your first recorded fish for a fishing hole.",
-        "",
+        "Catch any Big Fish as your first recorded fish for a fishing hole or as the first cast of a window.",
+        "Fishers tell the tales of their comrades walking up to a body of water and 'just catching the thing' with the first touch of their lure. Achievement only counts if you've never discovered a fishing hole before and the big fish is your recording, or, it's the first cast of the window. Any other cast or instance does not count.",
         "solo"
     ],
     [
@@ -308,7 +308,7 @@
         "⭐⭐⭐",
         "Rapid Fire",
         "Get at least 8 bites in during a single Fingers, Ealad Skaan, or Furcauada window.",
-        "",
+        "Fishing is all about getting the most number of casts in that you can during a window! Just need to get a bite, not actually reel in the bite.",
         "solo"
     ],
     [
@@ -316,15 +316,15 @@
         "⭐⭐⭐",
         "Where'd That Come From?",
         "Desynth a Glamour Piece from a fish.",
-        "Pieces can come from Gigant Shark, Twitchbeard, Octomammoth, and Frilled Shark.",
-        "solo"
+        "Some fish in A Realm Reborn fishing holes drop beach wear when desynthed! You will need to have unlocked Desynthesis in order to do this. Pieces can come from Gigant Shark, Twitchbeard, Octomammoth, and Frilled Shark.",
+        "solo, learning"
     ],
     [
         50,
         "⭐⭐",
         "Minions, Do Thy Bidding!",
         "Catch one of the fishable Minions.",
-        "Get a Magic Bucket, Tiny Tortiose, Gigantpole, Castaway Chocobo Chick, or Tiny Tansunoko while fishing.",
+        "Catch a Magic Bucket, Tiny Tortoise, Gigantpole, Castaway Chocobo Chick, or Tiny Tansunoko while fishing.",
         "solo"
     ],
     [
@@ -332,7 +332,7 @@
         "⭐⭐⭐",
         "Trouble Brewing",
         "Complete the Beasts of Brewers Beacon Quest",
-        "",
+        "Unlocked after completing the Lv.50 Fisher Job quest, \"So Long and Thanks for All the Fish.\"",
         "solo"
     ],
     [
@@ -340,7 +340,7 @@
         "⭐⭐⭐⭐",
         "Feasting Well",
         "Complete the Feast of Famine Quest",
-        "",
+        "Unlocked after completing the Beasts of Brewers Beacon Quest.",
         "solo"
     ],
     [
@@ -348,16 +348,16 @@
         "⭐⭐⭐⭐",
         "No Gathering Points Needed III",
         "Catch any double or triple-mooch fish using 0 GP and no skills beyond Cast, Hook, and Mooch.",
-        "",
+        "Fish like you would in the old days.",
         "solo"
     ],
     [
-        50,
-        "⭐⭐⭐⭐⭐⭐",
-        "Impossible Odds",
-        "Catch a Little Perykos with 1 or less Gathering.",
-        "*note to those attempting to do this, and I know who you are... The challenge is something that no one has done and I sorta added it as a joke. There are two hurdles to this achievement, the first - is getting a Wahoo. This challenge will, most likely, not make the final cut.\n\n- Fruity",
-        "solo"
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ],
     [
         "Lv 51-60",
@@ -372,31 +372,31 @@
         "⭐",
         "Cloudfishing",
         "Catch any fish by casting off the side of a floating island in The Sea of Clouds using Versatile Lure.",
-        "",
-        "solo"
+        "Fish don't just swim in water, sometimes they fly among the clouds! ... and this is somehow different from Skyfishing.",
+        "solo, learning"
     ],
     [
         55,
         "⭐",
         "Hellfishing",
         "Catch any fish by casting into the lava of the Mourn Volcano in The Dravanian Hinterlands using Versatile Lure.",
-        "",
-        "solo"
+        "Fish don't just swim in water, sometimes they also swim in... molten lava? What?",
+        "solo, learning"
     ],
     [
         57,
         "⭐⭐",
         "The Eyes Have It",
         "Catch a Mud Golem between 3 am and 9pm Eorzea Time.",
-        "",
-        "solo"
+        "Fish Eyes is a skill which grants a buff that allows you to ignore the time requirements of any fish except Legendary and Ocean Fish. The buff only lasts for 60 seconds! So make sure you're prepared!",
+        "solo, learning"
     ],
     [
         57,
         "⭐⭐⭐",
         "The Eyes Have It, Again",
         "Catch a Starbright between 4am and 8pm Eorzea Time",
-        "",
+        "Use Fish Eyes to catch Starbright when it's not normally available. Fish Eyes works on moochable fish!",
         "solo"
     ],
     [
@@ -404,7 +404,7 @@
         "⭐⭐⭐⭐",
         "The Eyes Still Have It",
         "Catch a Frilled Shark between 3am and 5pm Eorzea Time.",
-        "",
+        "Use Fish Eyes to catch Frilled Shark when it's not normally available, but the weather is correct. Remember that Fish Eyes only nullifies the time requirement for fish!",
         "solo"
     ],
     [
@@ -412,47 +412,47 @@
         "⭐",
         "Aetherfishing",
         "Catch any fish by casting into the Aetherchemical Pools of Azyz Lla using Versatile Lure.",
-        "",
-        "solo"
+        "Fish don't just swim in water, sometimes they swim in pools of aether polluted water! Don't fall in!",
+        "solo, learning"
     ],
     [
         60,
         "⭐",
-        "Where is it!?",
+        "Where Is It!?",
         "Catch any fish in the Anyx Old fishing spot.",
-        "",
-        "solo"
+        "Anyx Old is a fishing spot that is notoriously difficult to find for first timers. You can find it in the Volcano in the Dravanian Forelands by casting off a little ledge.",
+        "solo, learning"
     ],
     [
         60,
         "⭐",
         "Patience, Please",
         "Use Patience II to catch 5 large-sized fish in a row.",
-        "",
-        "solo"
+        "Patience II greatly increases the chance that any fish caught with of the large-sized quality. This makes it extremely useful when catching Collectable fish, building Angler's Art stacks, or mooching! Don't forget to use Precision or Powerful Hookset!\n\nDoes not have any impact on the bite rate of Big or Legendary Fish.",
+        "solo, learning"
     ],
     [
         60,
         "⭐⭐",
-        "Snagged",
+        "A Bigger Snag",
         "Catch an Impaler",
-        "",
+        "Always available in the Dragonspit fishing hole, the Impaler is the only Big Fish to require Snagging!",
         "solo"
     ],
     [
         60,
         "⭐⭐⭐",
         "It's a New Lap Record! I",
-        "Catch a Record Sized fish for any Biome.",
-        "",
+        "Catch a B-Tier Record Sized fish for any Biome.",
+        "The biggest fish you catch for a specific biome and water type is recorded, it's based on the size of the fish in ilms, not just if the fish is really big or not!",
         "solo"
     ],
     [
         60,
         "⭐⭐⭐",
-        "How'd that work?",
-        "Catch a Dark Ambuser while under the effect of Patience II.",
-        "Not all !!! biting big fish use Powerful Hookset!",
+        "How'd That Work?",
+        "Catch a Dark Ambusher while under the effect of Patience II.",
+        "Not all big fish use Powerful Hookset!",
         "solo"
     ],
     [
@@ -469,31 +469,31 @@
         "A New Fishing Ex-Spear-eance",
         "Unlock Spearfishing.",
         "",
-        "solo"
+        "solo, learning"
     ],
     [
         61,
         "⭐",
         "Gotcha",
         "Spear at least 6 fish in a single Teeming Waters.",
-        "",
-        "solo"
+        "Use gig whenver fish are just above the spear in the Spearfishing window. You have to spear the fish through its hitbox to catch it - and you can spear multiple fish in a single gig!",
+        "solo, learning"
     ],
     [
         61,
         "⭐",
         "Collector's Glove, Please",
         "Spear a collectable fish and turn it into any Collectable Appraiser.",
-        "",
-        "solo"
+        "Collectable fish can only be caught as a collectable while collector's glove buff is active. Use the skill Collect to turn enable it, and don't forget to do it!",
+        "solo, learning"
     ],
     [
         61,
         "⭐",
         "Ah, There It Is! II",
         "Use Shark Eye to location the nearest Teeming Waters.",
-        "",
-        "solo"
+        "Shark Eye is a skill which helps you locate nearby Teeming Waters. Use it to locate a Teeming water whenever you are Spearfishing.",
+        "solo, learning"
     ],
     [
         61,
@@ -508,7 +508,7 @@
         "⭐⭐",
         "Double The Fun",
         "Spear 2 fish in a single gigging.",
-        "",
+        "You don't just catch whatever fish the spear hits first, you can get any that gets in its way.",
         "solo"
     ],
     [
@@ -516,7 +516,7 @@
         "⭐⭐",
         "Oh Baby, a Triple!",
         "Spear 3 fish in a single gigging.",
-        "",
+        "You don't just catch whatever fish the spear hits first, you can get any that gets in its way.",
         "solo"
     ],
     [
@@ -524,23 +524,23 @@
         "⭐",
         "A Small Will Do",
         "Use Mooch II to mooch an average-sized fish.",
-        "",
-        "solo"
+        "Mooch II allows you to mooch average sized fish. But it's at the cost of 100GP and a cool down timer, meaning you can't do it every average sized fish! ",
+        "solo, learning"
     ],
     [
         63,
         "⭐",
         "Begone!",
         "Use Veteran Trade to make a fish never appear again during a Teeming Waters.",
-        "",
-        "solo"
+        "When you spear a fish, the last fish you speared can be removed from pool of fish that can appear using Veteran Trade. It'll last for the whole duration of the Teeming Waters.",
+        "solo, learning"
     ],
     [
         63,
         "⭐⭐⭐",
         "Average Beginnings",
         "Start and then continue a Mooch Loop with an average-sized fish.",
-        "",
+        "Using the correct skills, you can catch two average sized fish in a row and still be able to continue mooching. ",
         "solo"
     ],
     [
@@ -548,72 +548,72 @@
         "⭐",
         "Not-so-vital",
         "Use Vital Sight during a Teeming Waters to increase the hitboxes of fish.",
-        "",
-        "solo"
+        "Vital Sight is a skill which can increase the hit box size of any fish while spearfishing. It's a useful skill for if you're low gathering (and thus, have smaller hitboxes) or want more wiggle room with your hitboxes.",
+        "solo, learning"
     ],
     [
         65,
         "⭐",
         "Ah, There It Is! III",
         "Use Shark Eye II to locate the nearest and highest-level Teeming Waters.",
-        "",
-        "solo"
+        "Shark Eye II ",
+        "solo, learning"
     ],
     [
         65,
         "⭐⭐",
         "Hooked",
         "Use Double Hook to catch at least 2 of a single species of fish in a single hooking.",
-        "",
-        "solo"
+        "Double Hook is a skill which can be used in place of Hook and will increase the yield of most fish to two or more fish. It, however, does not increase the yield of Big Fish and certain rare fish caught.",
+        "solo, learning"
     ],
     [
         65,
         "⭐⭐",
         "Oh, I'm Plenty Hooked",
         "Using Double Hook, catch at least 4 of a single species of fish with a single hooking.",
-        "",
-        "solo"
+        "While Double Hook says it can land you two fish, for some fish you can get 3 or more fish, making it a cheaper alternative to other skills in some rare cases.",
+        "solo, learning"
     ],
     [
         65,
         "⭐⭐",
         "Release Star II",
         "Get 10,000 points in Ocean Fishing while releasing every fish you catch.",
-        "",
-        "solo"
+        "Must use Release and/or Release List for every catch, during each stop and spectral current.",
+        "solo, ocean fishing."
     ],
     [
         65,
         "⭐⭐",
         "Double Check",
         "While Collector's Glove is active, Double Hook a collectable fish and press no.",
-        "",
+        "You can Double Hook Collectables, but if you press Yes you will only ever get ONE collectable fish. If you press no however...",
         "solo"
     ],
     [
         67,
         "⭐",
-        "Treasure abound",
+        "Treasure Abound",
         "Use Salvage to Spear a Treasure Map, anywhere.",
-        "",
-        "solo"
+        "Salvage is a skill which gives fishers the Salvage buff enabling spear fishers to catch treasure maps. ",
+        "solo, learning"
     ],
     [
         68,
         "⭐",
         "Saltfishing",
         "Catch any fish by casting into a salt lake in The Lochs or Urqopacha using Versatile Lure.",
-        "",
-        "solo"
+        "Fish don't just swim in water! Sometimes they swim in extremely briney water! (This is different from salt water.)",
+        "solo, learning"
     ],
     [
         69,
         "⭐",
         "Bountiful",
         "Use Nature's Bounty during a Teeming Waters to make an average-sized fish be large-sized.",
-        "",
-        "solo"
+        "Nature's Bounty will greatly increase the size of the next fish speared while the buff is active. Try using Nature's Bounty to spear two or three fish at once, what happens?",
+        "solo, learning"
     ],
     [
         69,
@@ -668,32 +668,32 @@
         "⭐",
         "Slap!",
         "Use Surface Slap so the last fish you caught will not be the next fish you catch.",
-        "",
-        "solo"
+        "After catching a fish, you can use Surface Slap to remove the caught fish from the list of potential fish that will bite - but only while the Surface Slap buff is active.",
+        "solo, learning"
     ],
     [
         71,
         "⭐⭐",
-        "It's... still there?",
+        "It's... Still There?",
         "Surface Slap a fish, then maintain Surface Slap, without reapplying it for the next 5 bites.",
-        "",
-        "solo"
+        "The Surface Slap buff is only removed when you successfully reel in another fish.",
+        "solo, learning"
     ],
     [
         75,
         "⭐",
         "I Await with Baited Breath",
         "Use Baited Breath to reduce the wariness of fish 2 times in a single Teeming Waters after spearing 3 fish.",
-        "",
-        "solo"
+        "As you use Gig, the fish of a Teeming Waters becomes more wary to your presnse. You can use Baited Breath to remove a giggings worth of wariness, extending the time you have at the teeming waters. Useful for Swimming Shadows or during Spearfishers Intuition!",
+        "solo, learning"
     ],
     [
         79,
-        "⭐⭐",
+        "⭐",
         "Identical!",
         "In a fishing hole with more than 5 fish, catch any fish, then guarantee the next fish is the exact same fish while using Versatile Lure.",
-        "",
-        "solo"
+        "Identical Cast is a skill you can use after catching a fish (that wasn't mooched!). It guarantees that the next fish you catch will be that same fish! The buff is removed on successful catches, slips do not remove the buff.",
+        "solo, learning"
     ],
     [
         80,
@@ -740,39 +740,39 @@
         "⭐",
         "A Prized Catch, to be Sure!",
         "Use Prize Catching to guarantee that the next fish you catch is a large-sized fish.",
-        "",
-        "solo"
+        "Prize Catch is a skill which grants a buff that guarantees the next fish caught will be almost it's largest possible size (and of large-size quality), regardless of your perception rating. Useful with mooching, occasionally! Does grant an Angler's Art stack.",
+        "solo, learning"
     ],
     [
         81,
         "⭐",
         "No, Not That One.",
         "Keep Prize Catch active, without reapplying it, for 3 separate casts.",
-        "",
-        "solo"
+        "Prize Catch's buff is only removed when a fish is successfully caught.",
+        "solo, learning"
     ],
     [
         85,
         "⭐",
         "Shocker!",
         "Use Electric Current during a Teeming Waters",
-        "",
-        "solo"
+        "Once your catch counter has increased to 10 while spearfishing at any Teeming Waters, you get access to Electric Current. This skill can only be used once per Teeming Waters and catches any fish that can be seen.",
+        "solo, learning"
     ],
     [
         85,
         "⭐⭐",
         "The Battery Died",
         "Successfully spear at least 1 fish after using an Electric Current during a Teeming Waters.",
-        "",
+        "It's the aftershock.",
         "solo"
     ],
     [
         85,
         "⭐⭐⭐",
         "Llymlean's Own Spear",
-        "Get a final catch count at a Teeming Waters of 13 or more.",
-        "",
+        "Get a final catch count of 13 or more at any Teeming Waters.",
+        "Catch Count is the number of fish successfully speared without letting the catch counter drop.",
         "solo"
     ],
     [
@@ -780,7 +780,7 @@
         "⭐",
         "Starfishing",
         "Catch any fish by casting into spaaaace in Ultima Thule using Versatile Lure.",
-        "",
-        "solo"
+        "Fish don't just swim in water! Sometimes they swim through the vastness of space!\n\nThis is just getting ridiculous.",
+        "solo, learning"
     ]
 ]

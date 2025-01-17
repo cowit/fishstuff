@@ -5,7 +5,7 @@ document.getElementById("level-max").addEventListener("input", filterList)
 //When complete button is clicked, activate fanfare
 document.getElementById("quest-complete-button").addEventListener("click", () => {
     var currentChallenge = document.querySelector(".current-challenge")
-    if(currentChallenge == null) return
+    if (currentChallenge == null) return
     if (currentChallenge.classList.contains("complete")) {
         currentChallenge.classList.remove("complete")
         document.querySelector("#quest-complete-button").classList.remove("completed")
@@ -18,21 +18,11 @@ document.getElementById("quest-complete-button").addEventListener("click", () =>
 })
 
 //Completion Selectors
-document.getElementById("select-all").addEventListener("click", () => {
-    document.querySelector(".completion-selector.selected")?.classList.remove("selected")
-    document.getElementById("select-all").classList.add("selected")
-    filterList()
-})
-
 document.getElementById("select-completed").addEventListener("click", () => {
-    document.querySelector(".completion-selector.selected")?.classList.remove("selected")
-    document.getElementById("select-completed").classList.add("selected")
     filterList()
 })
 
 document.getElementById("select-uncompleted").addEventListener("click", () => {
-    document.querySelector(".completion-selector.selected")?.classList.remove("selected")
-    document.getElementById("select-uncompleted").classList.add("selected")
     filterList()
 })
 

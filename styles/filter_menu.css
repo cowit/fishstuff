@@ -69,13 +69,15 @@
 
 .star-selector {
     margin: 1px;
-    font-size: large;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
-    filter: grayscale();
+    fill: var(--Tobacco-Brown-950, #2F2319);
+
 }
 
 .star-selector.selected {
-    filter: none;
+    fill: var(--Hero, #CAA83A);
 }
 
 
@@ -87,4 +89,83 @@
 .random-selector {
     background-color: var(--grey-border);
     border-radius: 15px;
+}
+
+/* New Filter Menu */
+#floating-filter-wrapper {
+    display: flex;
+    padding: 4px 16px 8px 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+}
+
+#filter-menu {
+    display: flex;
+    padding: 12px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--Hero, #CAA83A);
+    background: var(--Tobacco-Brown-50, #F7F6EF);
+}
+
+.filter-title {
+    align-self: stretch;
+    color: var(--Black-700, #3F3E3C);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    width: fit-content;
+}
+
+.filter-checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md, 8px);
+    align-self: stretch;
+}
+
+.filter-checkbox-input {
+    display: flex;
+    padding-top: 1px;
+    justify-content: center;
+    align-items: center;
+    accent-color: var(--Hero, #CAA83A);
+}
+
+.filter-checkbox-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--Black-700, #3F3E3C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+#star-box {
+    display: flex;
+    width: fit-content;
 }

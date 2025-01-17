@@ -35,12 +35,6 @@ function listChallenges() {
         questItem.querySelector(".list-level").textContent = `Lv. ${challenge[ChallengeEnum.LEVEL]}`
         questItem.querySelector(".list-text").textContent = challenge[ChallengeEnum.NAME]
 
-
-
-        //var listEle = document.createElement("div"
-        //listEle.classList.add("challenge-element")
-        //listEle.id = `challenge-${index}`
-
         //Add Challenge ele to challenge object
         challenge.element = questItem
 
@@ -62,19 +56,26 @@ function listChallenges() {
 
     var tagBox = document.getElementById("tag-selection")
 
+    //Create Tag Elements
     for (index in tagList) {
         var tag = tagList[index]
-        var tagElement = document.createElement("p")
-        tagElement.id = tag
-        tagElement.classList.add("tag-selector")
-        tagElement.classList.add("selector-button")
-        tagElement.innerText = tag.charAt(0).toUpperCase() + tag.slice(1)
+        var tagTemplate = document.querySelector("#filter-checkbox-template")
+        var tagElement = tagTemplate.content.querySelector(".filter-checkbox").cloneNode(true)
+        tagElement.querySelector(".filter-checkbox-input").id = tag
+        tagElement.querySelector(".filter-checkbox-input").classList.add("tag-checkbox")
+        tagElement.querySelector(".filter-checkbox-text").innerText = tag.charAt(0).toUpperCase() + tag.slice(1)
         tagBox.appendChild(tagElement)
-        addTagClickData(tagElement, tag)
+        addTagClickData(tagElement)
     }
 
     //Filter list to remove errored challenges
     filterList()
+}
+
+function addTagClickData(tagEle) {
+    tagEle.addEventListener("click", () => {
+        filterList()
+    })
 }
 
 function addClickData(element, challenge) {
@@ -96,25 +97,16 @@ function addClickData(element, challenge) {
     })
 }
 
-function addTagClickData(element, tag) {
-    element.addEventListener("click", () => {
-        if (!element.classList.contains("active")) {
-            element.classList.add("active")
-        }
-        else {
-            element.classList.remove("active")
-        }
-        filterList()
-    })
-}
+
 
 function filterList() {
     var minLevel = document.getElementById("level-min").value || 0
     var maxLevel = document.getElementById("level-max").value || 1000
 
     var activeTags = []
-    document.querySelectorAll(".tag-selector.active").forEach((ele) => {
-        activeTags.push(ele.id)
+    document.querySelectorAll(".tag-checkbox").forEach((ele) => {
+        if (ele.checked)
+            activeTags.push(ele.id)
     })
     filteredList = []
 
@@ -138,12 +130,11 @@ function filterList() {
         }
 
         //Completed Filter
-        var selectedType = document.querySelector(".completion-selector.selected")?.id
-        if (selectedType === "select-completed" && !challengeElement.classList.contains("complete")) {
+        if (!document.querySelector("#select-completed").checked && !challengeElement.classList.contains("complete")) {
             challengeElement.hidden = true
             continue challenge
         }
-        else if (selectedType === "select-uncompleted" && challengeElement.classList.contains("complete")) {
+        else if (!document.querySelector("#select-uncompleted").checked && challengeElement.classList.contains("complete")) {
             challengeElement.hidden = true
             continue challenge
         }
@@ -175,6 +166,7 @@ function filterList() {
         }
 
         challengeElement.hidden = false
+        //console.log(challengeElement)
 
         filteredList.push(challenge)
     }
