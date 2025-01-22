@@ -57,3 +57,21 @@ document.querySelector("#random-any").addEventListener("click", () => {
     document.getElementById("challenge-goal").textContent = challenge[ChallengeEnum.GOAL]
     document.getElementById("challenge-description").textContent = challenge[ChallengeEnum.DESCRTIPION]
 })
+
+//Dropdowns
+document.querySelectorAll(".styled-dropdown").forEach((ele) => {
+    ele.addEventListener("click", (event) => {
+        if (!ele.classList.contains("open")) ele.classList.add("open")
+        else ele.classList.remove("open")
+        if (event.target.classList.contains("styled-option")) {
+            var selectedValue = event.target.getAttribute("value")
+            ele.setAttribute("value", selectedValue)
+            ele.querySelector(".dropdown-text").textContent = event.target.textContent
+            ele.dispatchEvent(new CustomEvent("select", {detail: {target: event.target, value: selectedValue}}))
+        }
+    })
+})
+
+document.querySelector(".styled-dropdown").addEventListener("select", (event) => {
+    console.log(event.detail.value)
+})

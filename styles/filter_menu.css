@@ -112,6 +112,7 @@
     border-radius: 8px;
     border: 1px solid var(--Hero, #CAA83A);
     background: var(--Tobacco-Brown-50, #F7F6EF);
+    width: 366px;
 }
 
 .filter-title {
