@@ -179,9 +179,10 @@ function filterList() {
 
         filteredList.push(challenge)
     }
-    filteredList.sort((a,b) => a[0] - b[0])
+    filteredList.sort((a, b) => a[0] - b[0])
     var challengeList = document.querySelector("#all-challenges-item-list")
     filteredList.forEach((ele) => {
-        challengeList.appendChild(ele.element)
+        if (ele.element.parentElement.id != "pinned-challenges")
+            challengeList.appendChild(ele.element)
     })
 }
