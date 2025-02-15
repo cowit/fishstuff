@@ -94,6 +94,15 @@ function addClickData(element, challenge) {
         else {
             document.querySelector("#quest-complete-button").classList.remove("completed")
         }
+
+    })
+    element.querySelector(".list-icon.first").addEventListener("click", () => {
+        if (element.parentElement.id === "all-challenges-item-list")
+            document.querySelector("#pinned-challenges").appendChild(element)
+        else {
+            document.querySelector("#all-challenges-item-list").appendChild(element)
+        }
+        filterList()
     })
 }
 
@@ -170,6 +179,9 @@ function filterList() {
 
         filteredList.push(challenge)
     }
-
-
+    filteredList.sort((a,b) => a[0] - b[0])
+    var challengeList = document.querySelector("#all-challenges-item-list")
+    filteredList.forEach((ele) => {
+        challengeList.appendChild(ele.element)
+    })
 }

@@ -75,3 +75,9 @@ document.querySelectorAll(".styled-dropdown").forEach((ele) => {
 document.querySelector(".styled-dropdown").addEventListener("select", (event) => {
     console.log(event.detail.value)
 })
+
+//Filter Menu opening
+document.querySelector("#filters-button").addEventListener("click", (button) => {
+    var filterMenu = document.querySelector("#floating-filter-wrapper")
+    filterMenu.hidden = !filterMenu.hidden
+})

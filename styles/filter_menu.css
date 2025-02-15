@@ -99,6 +99,35 @@
     align-items: flex-start;
     gap: 2px;
     align-self: stretch;
+    animation: slide-open 1s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#floating-filter-wrapper[hidden] {
+    animation: slide-closed 1s;
+    display: none;
+}
+
+@keyframes slide-open {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 674px;
+    }
+}
+
+@keyframes slide-closed {
+    from {
+        height: 674px;
+        display: flex;
+    }
+
+    to {
+        height: 0px;
+    }
 }
 
 #filter-menu {
@@ -112,7 +141,7 @@
     border-radius: 8px;
     border: 1px solid var(--Hero, #CAA83A);
     background: var(--Tobacco-Brown-50, #F7F6EF);
-    width: 366px;
+    width: 334px;
 }
 
 .filter-title {

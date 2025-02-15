@@ -1,18 +1,38 @@
-#challenge-board {
+:root {
+    background-color: #1E1B1B;
+}
+
+#main-content {
+    position: relative;
     display: flex;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(51.29% 51.29% at 50% 0%, var(--Hero, rgba(202, 168, 58, 0.20)) 0%, rgba(27, 27, 27, 0.20) 100%), url(../image_assets/Marble\ Background\ Texture.jpg) lightgray 50% / cover no-repeat, var(--Pure-Black, #0F0F0F);
+}
+
+#challenge-board {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 946px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
     padding: 12px 12px 12px 0px;
     align-items: flex-start;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 8px;
     background: linear-gradient(180deg, rgba(140, 116, 66, 0.30) 0%, rgba(48, 48, 48, 0.30) 37.5%), url(../image_assets/main_texture.jpg) lightgray 50% / cover no-repeat;
 }
 
 /*Side Bar*/
-#siderbar {
+#sidebar {
     display: flex;
     width: 400px;
     flex-direction: column;
     align-items: flex-start;
-    align-self: stretch;
 }
 
 #quest-list-wrap {
@@ -96,8 +116,6 @@
     align-items: flex-start;
     gap: 2px;
     flex: 1 0 0;
-    margin-left: 14px;
-
 }
 
 #all-challenges {
@@ -112,8 +130,6 @@
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
-
 
 #quest-wrap {
     display: flex;
@@ -343,5 +359,21 @@
 }
 
 #all-challenges-item-list>.quest-item>.list-icon.first>.select-icon {
+    display: none;
+}
+
+.unfilled-pin-icon {
+    display: none;
+}
+
+#all-challenges-item-list>.quest-item>.list-icon.first:hover>.unfilled-pin-icon {
+    display: block;
+}
+
+#all-challenges-item-list>.quest-item>.list-icon.first:hover>.select-icon {
+    display: none;
+}
+
+#pinned-challenges>.quest-item>.list-icon.first>.select-icon {
     display: none;
 }
