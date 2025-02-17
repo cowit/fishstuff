@@ -81,3 +81,4 @@ document.querySelector("#filters-button").addEventListener("click", (button) => 
     var filterMenu = document.querySelector("#floating-filter-wrapper")
     filterMenu.hidden = !filterMenu.hidden
 })
+

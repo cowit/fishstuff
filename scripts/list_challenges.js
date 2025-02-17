@@ -109,6 +109,9 @@ function addClickData(element, challenge) {
 
 
 function filterList() {
+    var completedAmount = 0
+    var uncompletedAmount = 0
+
     var minLevel = document.getElementById("level-min").value || 0
     var maxLevel = document.getElementById("level-max").value || 1000
 
@@ -123,6 +126,15 @@ function filterList() {
     challenge: for (index in challengeData) {
         var challenge = challengeData[index]
         var challengeElement = document.getElementById(`challenge-${index}`)
+        
+        //Track challenge completions
+        if(challengeElement.classList.contains("complete")) {
+            completedAmount += 1
+        }
+        else {
+            uncompletedAmount += 1
+        }
+
         //Challenge level filter
         var challengeLevel = parseInt(challenge[ChallengeEnum.LEVEL])
         if (challengeLevel < minLevel || challengeLevel > maxLevel || isNaN(challengeLevel)) {
@@ -185,4 +197,5 @@ function filterList() {
         if (ele.element.parentElement.id != "pinned-challenges")
             challengeList.appendChild(ele.element)
     })
+    document.querySelector("#completion-number").textContent = `${completedAmount}/${challengeData.length}`
 }
