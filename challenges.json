@@ -468,7 +468,7 @@
         "⭐",
         "A New Fishing Ex-Spear-eance",
         "Unlock Spearfishing.",
-        "",
+        "You can unlock Spearfishing by talking to Sumitsubo to get the Lv.61 quest \"A New Fishing Ex-spear-ience.\" They can be found next to the Tamamizu Aetheryte in The Ruby Sea. ",
         "solo, learning"
     ],
     [
@@ -500,13 +500,13 @@
         "⭐⭐",
         "Gotcha II",
         "Spear at least 10 fish in a single Teeming Waters.",
-        "",
+        "A test of your reflexes!",
         "solo"
     ],
     [
         61,
         "⭐⭐",
-        "Double The Fun",
+        "Twice the Fish",
         "Spear 2 fish in a single gigging.",
         "You don't just catch whatever fish the spear hits first, you can get any that gets in its way.",
         "solo"
@@ -556,7 +556,7 @@
         "⭐",
         "Ah, There It Is! III",
         "Use Shark Eye II to locate the nearest and highest-level Teeming Waters.",
-        "Shark Eye II ",
+        "Shark Eye II, much like Shark Eye, is a skill that helps you locate the nearest teeming waters. However, instead of finding just whichever one is closest, you find the one that is the nearest and highest level teeming waters you can fish at.",
         "solo, learning"
     ],
     [
@@ -581,7 +581,7 @@
         "Release Star II",
         "Get 10,000 points in Ocean Fishing while releasing every fish you catch.",
         "Must use Release and/or Release List for every catch, during each stop and spectral current.",
-        "solo, ocean fishing."
+        "solo, ocean fishing"
     ],
     [
         65,
@@ -620,7 +620,7 @@
         "⭐⭐",
         "Tier-riffic!",
         "Spear a tier-3 collectable fish while spearfishing.",
-        "",
+        "Depending on the size of the fish you caught, the collectability changes. Larger fish for the species will be worth more scrip! Use Nature's Bounty to spear a collectable which gives the highest tier - and thus - the most scrip.",
         "solo"
     ],
     [
@@ -628,15 +628,15 @@
         "⭐⭐⭐",
         "Record the Experience",
         "Get at least a AA rank in all silhouette sizes for a region in Spearfishing.",
-        "",
-        "solo"
+        "Certain fish in certain water types stand out as being the largest of the species that inhabit the biome. They are ranked based on their size - with current ranks viewable via the fish icon in the Fishing Log. Catch a fish that is AA rank or higher. AA, AAA, S rank fish will complete this challenge.",
+        "solo, learning"
     ],
     [
         70,
         "⭐⭐",
         "Swimming in the Shadows",
         "Catch an Eternal Eye in Azim Khaat Southern Lakebed.",
-        "",
+        "This lake under the Dawn Throne is a commonly missed Spearfishing location, home to three spear fishing locales.",
         "solo"
     ],
     [
@@ -644,7 +644,7 @@
         "⭐⭐",
         "Extractor",
         "Desynth a fish into any type of Materia.",
-        "",
+        "While it's common for a fish to desynth into fine sand, some Big Fish are known to desynth into various tiers of Materia. Is this a good way to get Materia? No. Is it nice of the fish to give you a Materia? Yes.",
         "solo"
     ],
     [
@@ -652,7 +652,7 @@
         "⭐⭐⭐⭐",
         "Double the Fun I",
         "Catch any A Realm Reborn, Heavensward, or Stormblood Legendary fish twice in one of its windows.",
-        "",
+        "Legendary Fish are meant to be an expansions most difficult, rare, and challenging fish.\n\nSo go catch one twice.",
         "solo"
     ],
     [
@@ -700,7 +700,7 @@
         "⭐⭐⭐",
         "It Just Keeps Going!",
         "Mooch the same fish into itself for at least 5 mooches.",
-        "",
+        "Many fish are known to eat their own species. These fish create what is colloquoallity called a \"Mooch Loop.\" Locate a fish which mooches into itself, and then continue the loop up to 5 times. ",
         "solo"
     ],
     [
@@ -708,7 +708,7 @@
         "⭐⭐⭐",
         "The Spinner",
         "Use a Metal Spinner to help catch Henodus Grandis",
-        "",
+        "While it's undetermined why, the appearance of a talking bush in Il Mheg brought about a new and unique technique for catching this fabled turtle of Kholusia - slapping Kelp.",
         "solo"
     ],
     [
@@ -716,7 +716,7 @@
         "⭐⭐⭐⭐",
         "Very Intuitive",
         "Get 3 full Sea Butterfly Intuitions in a single window.",
-        "",
+        "Considered one of the most beautiful and rarest of the legendary fish, it is also one of the most difficult. Fisher's attempt to lure it out as much as possible during its brief, fleeting appearances.",
         "solo"
     ],
     [
@@ -724,7 +724,7 @@
         "⭐⭐⭐⭐",
         "You Belong Here",
         "Catch and then place, Lancetfish into a Tier 4 Aquarium.",
-        "",
+        "Go straight to jail. Do not pass go. Do not collect dust in a chocobo saddlebag.",
         "solo"
     ],
     [
