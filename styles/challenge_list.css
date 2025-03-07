@@ -2,6 +2,10 @@
     background-color: #1E1B1B;
 }
 
+html {
+    height: 100%;
+}
+
 #main-content {
     position: relative;
     display: flex;
@@ -9,7 +13,13 @@
     padding-top: 64px;
 }
 
+#main-content.mobile {
+    height: 100%;
+    padding-top: 477px;
+}
+
 body {
+    height: calc(100% - 69px);
     margin: 0;
     background: radial-gradient(51.29% 51.29% at 50% 0%, var(--Hero, rgba(202, 168, 58, 0.20)) 0%, rgba(27, 27, 27, 0.20) 100%), url(../image_assets/Marble\ Background\ Texture.jpg) lightgray 50% / cover no-repeat, var(--Pure-Black, #0F0F0F);
 }
@@ -17,7 +27,6 @@ body {
 #challenge-board {
     overflow-x: hidden;
     overflow-y: hidden;
-    max-height: 946px;
     display: flex;
     justify-content: right;
     width: fit-content;
@@ -29,6 +38,7 @@ body {
 
 #challenge-board.mobile {
     border-radius: 0;
+    transform: scale(1.45);
 }
 
 /*Side Bar*/
@@ -147,7 +157,6 @@ body {
     border-radius: 8px;
     border: 1px solid var(--Black-Outlines, #1E1B1B);
     background: var(--Black-900, #212121);
-    height: fit-content;
 }
 
 #fancy-outline {
@@ -159,7 +168,6 @@ body {
     border: 1px solid var(--Tobacco-Brown-500, #A38F4F);
     background: var(--Black-900, #212121);
     width: 100%;
-    height: fit-content;
 }
 
 #quest-display {
