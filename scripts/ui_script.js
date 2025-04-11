@@ -14,7 +14,19 @@ document.getElementById("quest-complete-button").addEventListener("click", () =>
         currentChallenge.classList.add("complete")
         document.querySelector("#quest-complete-button").classList.add("completed")
     }
+    SaveChallenges()
     filterList()
+})
+
+//- Open quest list on mobile
+document.getElementById("quest-list-button").addEventListener("click", () => {
+    var sidebar = document.getElementById("sidebar")
+    if (sidebar.style.display === "none") {
+        sidebar.style.display = "flex"
+    }
+    else {
+        sidebar.style.display = "none"
+    }
 })
 
 //Completion Selectors
@@ -67,7 +79,7 @@ document.querySelectorAll(".styled-dropdown").forEach((ele) => {
             var selectedValue = event.target.getAttribute("value")
             ele.setAttribute("value", selectedValue)
             ele.querySelector(".dropdown-text").textContent = event.target.textContent
-            ele.dispatchEvent(new CustomEvent("select", {detail: {target: event.target, value: selectedValue}}))
+            ele.dispatchEvent(new CustomEvent("select", { detail: { target: event.target, value: selectedValue } }))
         }
     })
 })

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.css">
     <script src="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.min.js"></script>
     <link rel="stylesheet" href="styles/color_variables.css">
@@ -47,7 +48,7 @@
     <div id="main-content" class="mobile-compat">
 
         <div id="challenge-board" class="mobile-compat">
-            <div id="sidebar" class="mobile-compat" style="display: none;">
+            <div id="sidebar" class="mobile-compat">
                 <div id="quest-list-wrap">
                     <div id="board-header">
                         <p id="board-header-text">CHALLENGE LIST</p>
@@ -232,6 +233,7 @@
                             </div>
                         </div>
                         <div id="quest-buttons">
+                            <p id="quest-list-button">Open Challenge List</p>
                             <p id="quest-complete-button">Mark Complete</p>
                         </div>
                     </div>
@@ -350,5 +352,6 @@
 <script src="./scripts/list_challenges.js"></script>
 <script src="./scripts/ui_script.js"></script>
 <script src="./scripts/mobile_compatibility.js"></script>
+<script src="./scripts/save_load.js"></script>
 
 </html>

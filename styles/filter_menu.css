@@ -115,13 +115,13 @@
     }
 
     to {
-        height: 674px;
+        height: 592px;
     }
 }
 
 @keyframes slide-closed {
     from {
-        height: 674px;
+        height: 592px;
         display: flex;
     }
 

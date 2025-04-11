@@ -4,7 +4,9 @@ const ChallengeEnum = Object.freeze({
     GOAL: 3,
     DESCRTIPION: 4,
     LEVEL: 0,
-    TAGS: 5
+    TAGS: 5,
+    LOCATION: 6,
+    UNIQUEID: 7
 })
 
 //List of tags
@@ -19,6 +21,7 @@ fetch("./challenges.json")
         .then(json => {
             challengeData = json
             listChallenges()
+            window.setTimeout(LoadChallenges, 10)
         }))
 
 
@@ -43,7 +46,6 @@ function listChallenges() {
 
         //Click event
         addClickData(questItem, challenge)
-
         var tags = challenge[ChallengeEnum.TAGS]?.split(",")
         for (tag in tags) {
             tags[tag] = tags[tag].trim()
