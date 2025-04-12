@@ -448,6 +448,7 @@ body {
 
 /* quest fade */
 #quest-fade {
+    pointer-events: none;
     width: 400px;
     height: 100px;
     position: absolute;

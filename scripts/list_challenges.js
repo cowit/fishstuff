@@ -16,12 +16,13 @@ var challengeData
 
 var filteredList = []
 
+var loadingChallenges = true
 fetch("./challenges.json")
     .then(data => data.json()
         .then(json => {
             challengeData = json
             listChallenges()
-            window.setTimeout(LoadChallenges, 10)
+            loadingChallenges = false
         }))
 
 
@@ -104,6 +105,7 @@ function addClickData(element, challenge) {
         else {
             document.querySelector("#all-challenges-item-list").appendChild(element)
         }
+        SaveChallenges()
         filterList()
     })
 }
