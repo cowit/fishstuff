@@ -51,23 +51,47 @@ document.querySelectorAll(".star-selector").forEach((star) => {
     })
 })
 
+//MSQ selection
+document.querySelector("#MSQ-selection").addEventListener("select", (event) => {
+    console.log(event.detail.value)
+    var minLevelEle = document.querySelector("#level-min")
+    var maxLevelEle = document.querySelector("#level-max")
+    switch (event.detail.value) {
+        case "arealmreborn":
+            console.log("test")
+            minLevelEle.value = 0
+            maxLevelEle.value = 50
+            break;
+        case "heavensward":
+            minLevelEle.value = 51
+            maxLevelEle.value = 60
+            break;
+        case "stormblood":
+            minLevelEle.value = 61
+            maxLevelEle.value = 70
+            break;
+        case "shadowbringers":
+            minLevelEle.value = 71
+            maxLevelEle.value = 80
+            break;
+        case "endwalker":
+            minLevelEle.value = 81
+            maxLevelEle.value = 90
+            break;
+        case "dawntrail":
+            minLevelEle.value = 91
+            maxLevelEle.value = 100
+            break;
+    }
+    filterList()
+})
+
 //Random buttons
 document.querySelector("#random-any").addEventListener("click", () => {
     var challenge = filteredList[Math.floor(Math.random() * filteredList.length)]
+    console.log(challenge)
     //Current challenge selection
-    document.querySelector(".current-challenge")?.classList.remove("current-challenge")
-    challenge.element.classList.add("current-challenge")
-    if (challenge.element.classList.contains("complete")) {
-        document.querySelector("#challenge-complete").classList.add("completed")
-    }
-    else {
-        document.querySelector("#challenge-complete").classList.remove("completed")
-    }
-
-    document.getElementById("challenge-name").textContent = challenge[ChallengeEnum.NAME]
-    document.getElementById("challenge-stars").textContent = challenge[ChallengeEnum.STARS]
-    document.getElementById("challenge-goal").textContent = challenge[ChallengeEnum.GOAL]
-    document.getElementById("challenge-description").textContent = challenge[ChallengeEnum.DESCRTIPION]
+    setChallenge(challenge)
 })
 
 //Dropdowns
@@ -82,10 +106,6 @@ document.querySelectorAll(".styled-dropdown").forEach((ele) => {
             ele.dispatchEvent(new CustomEvent("select", { detail: { target: event.target, value: selectedValue } }))
         }
     })
-})
-
-document.querySelector(".styled-dropdown").addEventListener("select", (event) => {
-    console.log(event.detail.value)
 })
 
 //Filter Menu opening

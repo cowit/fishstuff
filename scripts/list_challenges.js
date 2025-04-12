@@ -83,21 +83,7 @@ function addTagClickData(tagEle) {
 
 function addClickData(element, challenge) {
     element.addEventListener("click", (event) => {
-        document.getElementById("quest-title").textContent = challenge[ChallengeEnum.NAME]
-        document.getElementById("quest-difficulty").textContent = `Difficulty ${challenge[ChallengeEnum.STARS]}`
-        document.getElementById("quest-objective-text").textContent = challenge[ChallengeEnum.GOAL]
-        document.getElementById("quest-description-text").textContent = challenge[ChallengeEnum.DESCRTIPION]
-        document.getElementById("quest-level").textContent = `Level Req: ${challenge[ChallengeEnum.LEVEL]}`
-        //Current challenge selection
-        document.querySelector(".current-challenge")?.classList.remove("current-challenge")
-        element.classList.add("current-challenge")
-        if (element.classList.contains("complete")) {
-            document.querySelector("#quest-complete-button").classList.add("completed")
-        }
-        else {
-            document.querySelector("#quest-complete-button").classList.remove("completed")
-        }
-
+        setChallenge(challenge)
     })
     element.querySelector(".list-icon.first").addEventListener("click", () => {
         if (element.parentElement.id === "all-challenges-item-list")
@@ -110,6 +96,22 @@ function addClickData(element, challenge) {
     })
 }
 
+function setChallenge(challenge) {
+    document.getElementById("quest-title").textContent = challenge[ChallengeEnum.NAME]
+    document.getElementById("quest-difficulty").textContent = `Difficulty ${challenge[ChallengeEnum.STARS]}`
+    document.getElementById("quest-objective-text").textContent = challenge[ChallengeEnum.GOAL]
+    document.getElementById("quest-description-text").textContent = challenge[ChallengeEnum.DESCRTIPION]
+    document.getElementById("quest-level").textContent = `Level Req: ${challenge[ChallengeEnum.LEVEL]}`
+    //Current challenge selection
+    document.querySelector(".current-challenge")?.classList.remove("current-challenge")
+    challenge.element.classList.add("current-challenge")
+    if (challenge.element.classList.contains("complete")) {
+        document.querySelector("#quest-complete-button").classList.add("completed")
+    }
+    else {
+        document.querySelector("#quest-complete-button").classList.remove("completed")
+    }
+}
 
 
 function filterList() {
@@ -130,9 +132,9 @@ function filterList() {
     challenge: for (index in challengeData) {
         var challenge = challengeData[index]
         var challengeElement = document.getElementById(`challenge-${index}`)
-        
+
         //Track challenge completions
-        if(challengeElement.classList.contains("complete")) {
+        if (challengeElement.classList.contains("complete")) {
             completedAmount += 1
         }
         else {
@@ -155,11 +157,12 @@ function filterList() {
         }
 
         //Completed Filter
-        if (!document.querySelector("#select-completed").checked && !challengeElement.classList.contains("complete")) {
+        if (!document.querySelector("#select-completed").checked && challengeElement.classList.contains("complete")) {
             challengeElement.hidden = true
             continue challenge
         }
-        else if (!document.querySelector("#select-uncompleted").checked && challengeElement.classList.contains("complete")) {
+
+        if (!document.querySelector("#select-uncompleted").checked && !challengeElement.classList.contains("complete")) {
             challengeElement.hidden = true
             continue challenge
         }
