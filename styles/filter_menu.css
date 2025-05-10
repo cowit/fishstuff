@@ -91,6 +91,12 @@
     border-radius: 15px;
 }
 
+#random-buttons {
+    display: flex;
+    min-width: 325px;
+    justify-content: space-between;
+}
+
 /* New Filter Menu */
 #floating-filter-wrapper {
     display: flex;

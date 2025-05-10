@@ -88,7 +88,55 @@ document.querySelector("#MSQ-selection").addEventListener("select", (event) => {
 //Random buttons
 document.querySelector("#random-any").addEventListener("click", () => {
     var challenge = filteredList[Math.floor(Math.random() * filteredList.length)]
-    console.log(challenge)
+
+    //Current challenge selection
+    setChallenge(challenge)
+})
+
+document.querySelector("#random-normal").addEventListener("click", () => {
+    document.querySelector("#star-1").classList.add("selected")
+    document.querySelector("#star-2").classList.add("selected")
+    document.querySelector("#star-3").classList.remove("selected")
+    document.querySelector("#star-4").classList.remove("selected")
+    document.querySelector("#star-5").classList.remove("selected")
+    document.querySelector("#star-6").classList.remove("selected")
+
+    filterList()
+
+    var challenge = filteredList[Math.floor(Math.random() * filteredList.length)]
+
+    //Current challenge selection
+    setChallenge(challenge)
+})
+
+document.querySelector("#random-savage").addEventListener("click", () => {
+    document.querySelector("#star-1").classList.remove("selected")
+    document.querySelector("#star-2").classList.remove("selected")
+    document.querySelector("#star-3").classList.add("selected")
+    document.querySelector("#star-4").classList.add("selected")
+    document.querySelector("#star-5").classList.remove("selected")
+    document.querySelector("#star-6").classList.remove("selected")
+    
+    filterList()
+
+    var challenge = filteredList[Math.floor(Math.random() * filteredList.length)]
+
+    //Current challenge selection
+    setChallenge(challenge)
+})
+
+document.querySelector("#random-ultimate").addEventListener("click", () => {
+    document.querySelector("#star-1").classList.remove("selected")
+    document.querySelector("#star-2").classList.remove("selected")
+    document.querySelector("#star-3").classList.remove("selected")
+    document.querySelector("#star-4").classList.remove("selected")
+    document.querySelector("#star-5").classList.add("selected")
+    document.querySelector("#star-6").classList.add("selected")
+    
+    filterList()
+
+    var challenge = filteredList[Math.floor(Math.random() * filteredList.length)]
+
     //Current challenge selection
     setChallenge(challenge)
 })
