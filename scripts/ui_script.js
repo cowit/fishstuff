@@ -53,7 +53,6 @@ document.querySelectorAll(".star-selector").forEach((star) => {
 
 //MSQ selection
 document.querySelector("#MSQ-selection").addEventListener("select", (event) => {
-    console.log(event.detail.value)
     var minLevelEle = document.querySelector("#level-min")
     var maxLevelEle = document.querySelector("#level-max")
     switch (event.detail.value) {
@@ -114,3 +113,29 @@ document.querySelector("#filters-button").addEventListener("click", (button) => 
     filterMenu.hidden = !filterMenu.hidden
 })
 
+//Search Menu
+const fuseOptions = {
+    threshold: 0.5,
+    keys: [
+        "2"
+    ]
+}
+
+var fuse
+
+document.addEventListener("challengesLoaded", () => {
+
+    fuse = new Fuse(challengeData, fuseOptions)
+    var searchBar = document.querySelector("#main-header-search")
+    searchBar.addEventListener("input", () => {
+        document.querySelectorAll(".searched").forEach((ele) => {
+            ele.classList.remove("searched")
+        })
+        fuse.search(searchBar.value).forEach((result) => {
+            result.item.element.classList.add("searched")
+        })
+        
+        filterList()
+    })
+
+})

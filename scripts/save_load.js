@@ -33,12 +33,5 @@ function LoadChallenges() {
     })
 }
 
-//Wait until all JSON data for challenges is loaded, then clear interval
-var intervalID = null
-intervalID = window.setInterval(() => {
-    if (loadingChallenges === false) {
-        clearInterval(intervalID)
-        LoadChallenges()
-    }
 
-})
+document.addEventListener("challengesLoaded", LoadChallenges)
