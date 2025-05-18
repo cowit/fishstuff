@@ -454,4 +454,5 @@ body {
     position: absolute;
     bottom: 0;
     background: linear-gradient(180deg, rgba(48, 48, 48, 0.00) 0%, #2A2A2A 50%, #2A2A2A 100%);
+    border-bottom-left-radius: 8px;
 }
