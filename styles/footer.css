@@ -21,6 +21,7 @@
 .footer-divider {
     display: flex;
     flex-direction: column;
+    width: 1500px;
 }
 
 .footer-text {
