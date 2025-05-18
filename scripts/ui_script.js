@@ -57,7 +57,6 @@ document.querySelector("#MSQ-selection").addEventListener("select", (event) => {
     var maxLevelEle = document.querySelector("#level-max")
     switch (event.detail.value) {
         case "arealmreborn":
-            console.log("test")
             minLevelEle.value = 0
             maxLevelEle.value = 50
             break;

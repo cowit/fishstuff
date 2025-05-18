@@ -19,6 +19,24 @@
     color: var(--Tobacco-Brown-200, #DAD4AE);
 }
 
+.button:hover {
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--Black-800, #303030);
+    box-shadow: 7px 12px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button.gold {
+    background: linear-gradient(90deg, #CAA83A 0%, #BD9735 100%);
+    color: #FFF;
+}
+
+.button.gold:hover {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.10) 100%), linear-gradient(90deg, var(--Hero, #CAA83A) 0%, var(--Hero-600, #BD9735) 100%);
+    box-shadow: 7px 12px 24px 0px rgba(194, 154, 58, 0.30);
+}
+
 .divider {
     display: flex;
     min-height: 2px;

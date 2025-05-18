@@ -128,7 +128,6 @@ function filterList(mask = []) {
 
     var searched = false
     if (document.querySelector(".searched") != null) searched = true
-    console.log(searched)
 
     //Create challenge list
     challenge: for (index in challengeData) {
@@ -203,7 +202,6 @@ function filterList(mask = []) {
 
             //Use Mask list to only show matching results, used for searching
             if (mask.length > 0) {
-                console.log(challenge)
                 mask.find(challenge)
             }
 
