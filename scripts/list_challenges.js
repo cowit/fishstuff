@@ -25,6 +25,7 @@ fetch("./challenges.json")
             challengeData = json
             listChallenges()
             loadingChallenges = false
+            setChallenge(challengeData[0])
         }))
 
 function listChallenges() {
