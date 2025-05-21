@@ -6,7 +6,9 @@ const ChallengeEnum = Object.freeze({
     LEVEL: 0,
     TAGS: 5,
     LOCATION: 6,
-    UNIQUEID: 7
+    UNIQUEID: 7,
+    IMAGEURL: 8,
+    IMAGEALTTEXT: 9
 })
 
 //List of tags
@@ -100,6 +102,7 @@ function setChallenge(challenge) {
     document.getElementById("quest-objective-text").textContent = challenge[ChallengeEnum.GOAL]
     document.getElementById("quest-description-text").textContent = challenge[ChallengeEnum.DESCRTIPION]
     document.getElementById("quest-level").textContent = `Level Req: ${challenge[ChallengeEnum.LEVEL]}`
+    document.getElementById("quest-image").src = `../image_assets/quest_images/${challenge[ChallengeEnum.IMAGEURL]}.png`
     //Current challenge selection
     document.querySelector(".current-challenge")?.classList.remove("current-challenge")
     challenge.element.classList.add("current-challenge")
@@ -131,84 +134,84 @@ function filterList(mask = []) {
 
     //Create challenge list
     challenge: for (index in challengeData) {
-            var challenge = challengeData[index]
-            var challengeElement = document.getElementById(`challenge-${index}`)
+        var challenge = challengeData[index]
+        var challengeElement = document.getElementById(`challenge-${index}`)
 
-            //Track challenge completions
-            if (challengeElement.classList.contains("complete")) {
-                completedAmount += 1
-            }
-            else {
-                uncompletedAmount += 1
-            }
-
-            //Challenge Search filter
-            if(searched && !challengeElement.classList.contains("searched")) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-
-            //Challenge level filter
-            var challengeLevel = parseInt(challenge[ChallengeEnum.LEVEL])
-            if (challengeLevel < minLevel || challengeLevel > maxLevel || isNaN(challengeLevel)) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-
-            //Challenge Tag Filter
-            for (tagIndex in activeTags) {
-                var tag = activeTags[tagIndex]
-                if (!challenge[ChallengeEnum.TAGS].includes(tag))
-                    challengeElement.hidden = true
-                continue challenge
-            }
-
-            //Completed Filter
-            if (!document.querySelector("#select-completed").checked && challengeElement.classList.contains("complete")) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-
-            if (!document.querySelector("#select-uncompleted").checked && !challengeElement.classList.contains("complete")) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-
-            //Star Filter
-            if (!document.getElementById("star-1").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 1) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-            if (!document.getElementById("star-2").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 2) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-            if (!document.getElementById("star-3").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 3) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-            if (!document.getElementById("star-4").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 4) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-            if (!document.getElementById("star-5").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 5) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-            if (!document.getElementById("star-6").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 6) {
-                challengeElement.hidden = true
-                continue challenge
-            }
-
-            //Use Mask list to only show matching results, used for searching
-            if (mask.length > 0) {
-                mask.find(challenge)
-            }
-
-            challengeElement.hidden = false
-
-            filteredList.push(challenge)
+        //Track challenge completions
+        if (challengeElement.classList.contains("complete")) {
+            completedAmount += 1
         }
+        else {
+            uncompletedAmount += 1
+        }
+
+        //Challenge Search filter
+        if (searched && !challengeElement.classList.contains("searched")) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+
+        //Challenge level filter
+        var challengeLevel = parseInt(challenge[ChallengeEnum.LEVEL])
+        if (challengeLevel < minLevel || challengeLevel > maxLevel || isNaN(challengeLevel)) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+
+        //Challenge Tag Filter
+        for (tagIndex in activeTags) {
+            var tag = activeTags[tagIndex]
+            if (!challenge[ChallengeEnum.TAGS].includes(tag))
+                challengeElement.hidden = true
+            continue challenge
+        }
+
+        //Completed Filter
+        if (!document.querySelector("#select-completed").checked && challengeElement.classList.contains("complete")) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+
+        if (!document.querySelector("#select-uncompleted").checked && !challengeElement.classList.contains("complete")) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+
+        //Star Filter
+        if (!document.getElementById("star-1").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 1) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if (!document.getElementById("star-2").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 2) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if (!document.getElementById("star-3").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 3) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if (!document.getElementById("star-4").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 4) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if (!document.getElementById("star-5").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 5) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+        if (!document.getElementById("star-6").classList.contains("selected") && challenge[ChallengeEnum.STARS].length === 6) {
+            challengeElement.hidden = true
+            continue challenge
+        }
+
+        //Use Mask list to only show matching results, used for searching
+        if (mask.length > 0) {
+            mask.find(challenge)
+        }
+
+        challengeElement.hidden = false
+
+        filteredList.push(challenge)
+    }
 
     filteredList.sort((a, b) => a[0] - b[0])
     var challengeList = document.querySelector("#all-challenges-item-list")
