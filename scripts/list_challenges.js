@@ -103,7 +103,15 @@ function setChallenge(challenge) {
     document.getElementById("quest-objective-text").textContent = challenge[ChallengeEnum.GOAL]
     document.getElementById("quest-description-text").textContent = challenge[ChallengeEnum.DESCRTIPION]
     document.getElementById("quest-level").textContent = `Level Req: ${challenge[ChallengeEnum.LEVEL]}`
-    document.getElementById("quest-image").src = `../image_assets/quest_images/${challenge[ChallengeEnum.IMAGEURL]}.png`
+
+    //Set Image, if undefined use default image
+    if (challenge[ChallengeEnum.IMAGEURL] === undefined) {
+        document.getElementById("quest-image").src = `../image_assets/quest_images/default.png`
+    }
+    else {
+        document.getElementById("quest-image").src = `../image_assets/quest_images/${challenge[ChallengeEnum.IMAGEURL]}.png`
+    }
+
     //Current challenge selection
     document.querySelector(".current-challenge")?.classList.remove("current-challenge")
     challenge.element.classList.add("current-challenge")
