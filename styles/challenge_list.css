@@ -55,7 +55,12 @@ body {
 #quest-list-wrap {
     display: flex;
     flex-direction: column;
-    max-height: 885px;
+}
+
+#challenge-lists-wrap {
+    display: flex;
+    flex-direction: column;
+    max-height: 845px;
 }
 
 #board-header {
